@@ -117,17 +117,16 @@
                     <nav class="header__menu">
                         <ul>
                             <li class="active"><a href="./index.html">Trang Chủ</a></li>
-                            <li><a href="./shop-grid.html">Cửa Hàng</a></li>
-                            <li><a href="./blog.html">Nhật Ký</a></li>
+                            <li><a href="./shop-grid.html">Mua sắm</a></li>
                             <li><a href="./contact.html">Liên hệ</a></li>
-                            <li><a href="#">Thêm</a>
+                            <!-- <li><a href="#">Thêm</a>
                                 <ul class="header__menu__dropdown">
                                     <li><a href="./shop-details.html">Chi Tiết Sản Phẩm</a></li>
                                     <li><a href="./shoping-cart.html">Giỏ Hàng</a></li>
                                     <li><a href="./checkout.html">Thanh Toán</a></li>
                                     <li><a href="./blog-details.html">Giới Thiệu</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                         </ul>
                     </nav>
                 </div>
@@ -137,7 +136,7 @@
                             <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
                             <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
                         </ul>
-                        <div class="header__cart__price">tổng:<span>150.000đ</span></div>
+                        <div class="header__cart__price">Tổng:<span>150.000đ</span></div>
                     </div>
                 </div>
             </div>
@@ -156,20 +155,21 @@
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>Tất cả Danh Mục</span>
+                            <span>Danh Mục</span>
                         </div>
                         <ul>
-                            <li><a href="#">Cây Cảnh</a></li>
-                            <li><a href="#">Cây Công Trình</a></li>
-                            <li><a href="#">Hoa Khô</a></li>
-                            <li><a href="#">Hoa Sự Kiện</a></li>
-                            <li><a href="#">Cây Giống</a></li>
-                            <li><a href="#">Hạt Giống</a></li>
-                            <li><a href="#">Hoa Chậu</a></li>
+                            
+                            <li><a href="#">Cây để bàn</a></li>
+                            <li><a href="#">Cây dây leo</a></li>
+                            <li><a href="#">Cây tết</a></li>
+                            <li><a href="#">Cây thủy sinh</a></li>
+                            <li><a href="#">Cây trong nhà</a></li>
+                            <li><a href="#">Cây ngoài vườn</a></li>
+                            <!-- <li><a href="#">Hoa Chậu</a></li>
                             <li><a href="#">Đất Trồng Cây</a></li>
                             <li><a href="#">Dụng Cụ Làm Vườn</a></li>
                             <li><a href="#">Chậu Cảnh</a></li>
-                            <li><a href="#">Tiểu Cảnh</a></li>
+                            <li><a href="#">Tiểu Cảnh</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -178,10 +178,10 @@
                         <div class="hero__search__form">
                             <form action="#">
                                 <div class="hero__search__categories">
-                                    Tất Cả Các Loại
+                                    Tất Cả
                                     <span class="arrow_carrot-down"></span>
                                 </div>
-                                <input type="text" placeholder="Chúng tôi có thể giúp được gì cho bạn?">
+                                <input type="text" placeholder="Tên cây cảnh">
                                 <button type="submit" class="site-btn">TÌM KIẾM</button>
                             </form>
                         </div>
@@ -190,7 +190,7 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+84 80.08.612</h5>
+                                <h5>+84353535355</h5>
                                 <span>Hỗ trợ 24/7</span>
                             </div>
                         </div>
@@ -198,7 +198,7 @@
                     <div class="hero__item set-bg" data-setbg="img/hero/banner.jpg">
                         <div class="hero__text">
                             <span>DỄ CHĂM SÓC</span>
-                            <h2>100% <br/>Tự nhiên</h2>
+                            <h2>Xanh mát <br> không gian</h2>
                             <p>Vận chuyển miễn phí và nhanh chóng</p>
                             <a href="#" class="primary-btn">MUA NGAY</a>
                         </div>
@@ -209,10 +209,27 @@
     </section>
     <!-- Hero Section End -->
 
+    <!-- Begin banner top-->
+       
+    <div class="banner">
+        <div class="container banner_top">
+            <p><i class="fas fa-seedling"></i></p>
+            <p>Thế giới cây cảnh</p>
+            <div class="row ">
+                <p>Uy tính</p>
+                <p>Chất lượng</p>
+                <p>Tiện lợi</p>
+            </div>
+        </div>
+    </div>
+  
+    <!-- End of banner top-->
+
     <!-- Categories Section Begin -->
     <section class="categories">
         <div class="container">
-            <div class="row">
+            <div class="row sale">
+                <h4>Giảm giá</h4>
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="img/categories/cat-1.jpg">
@@ -251,15 +268,17 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h2>Featured Product</h2>
+                        <h2>Sản phẩm</h2>
                     </div>
                     <div class="featured__controls">
                         <ul>
-                            <li class="active" data-filter="*">All</li>
-                            <li data-filter=".oranges">Oranges</li>
-                            <li data-filter=".fresh-meat">Fresh Meat</li>
-                            <li data-filter=".vegetables">Vegetables</li>
-                            <li data-filter=".fastfood">Fastfood</li>
+                            <li class="active" data-filter="*">Tất cả</li>
+                            <li data-filter=".oranges">Cây để bàn</li>
+                            <li data-filter=".fresh-meat">Cây dây leo</li>
+                            <li data-filter=".vegetables">Cây tết</li>
+                            <li data-filter=".fastfood">Cây thủy sinh</li>
+                            <li data-filter=".fastfood">Cây trong nhà</li>
+                            <li data-filter=".fastfood">Cây ngoài vườn</li>
                         </ul>
                     </div>
                 </div>
@@ -390,8 +409,8 @@
     </section>
     <!-- Featured Section End -->
 
-    <!-- Banner Begin -->
-    <div class="banner">
+      <!-- Banner Begin -->
+      <div class="banner">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6">
@@ -409,13 +428,13 @@
     </div>
     <!-- Banner End -->
 
-    <!-- Latest Product Section Begin -->
-    <section class="latest-product spad">
+     <!-- Latest Product Section Begin -->
+     <section class="latest-product spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="latest-product__text">
-                        <h4>Latest Products</h4>
+                        <h4>Mới nhất</h4>
                         <div class="latest-product__slider owl-carousel">
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
@@ -480,7 +499,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="latest-product__text">
-                        <h4>Top Rated Products</h4>
+                        <h4>Đánh giá cao nhất</h4>
                         <div class="latest-product__slider owl-carousel">
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
@@ -545,7 +564,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="latest-product__text">
-                        <h4>Review Products</h4>
+                        <h4>Dành cho bạn</h4>
                         <div class="latest-product__slider owl-carousel">
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
@@ -613,13 +632,14 @@
     </section>
     <!-- Latest Product Section End -->
 
+  
     <!-- Blog Section Begin -->
     <section class="from-blog spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title from-blog__title">
-                        <h2>From The Blog</h2>
+                        <h2>Bài viết mới</h2>
                     </div>
                 </div>
             </div>
