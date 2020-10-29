@@ -482,7 +482,7 @@ ol {
 	color: #252525;
 	text-transform: uppercase;
 	font-weight: 700;
-	letter-spacing: 2px;
+	letter-spacing: 0px;
 	-webkit-transition: all, 0.3s;
 	-moz-transition: all, 0.3s;
 	-ms-transition: all, 0.3s;
