@@ -1653,6 +1653,7 @@ ol {
 .product__pagination,
 .blog__pagination {
   padding-top: 10px;
+  padding-left: 163px;
 }
 
 .product__pagination a,
