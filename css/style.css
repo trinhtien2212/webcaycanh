@@ -3509,3 +3509,88 @@ ol {
     font-size: 24px;
   }
 }
+.sign-in .sign__in__form{
+  width: 600px;
+  height: 350px;
+  text-align: center;
+  margin: auto;
+  border: 1px solid #f5f5f5;
+}
+.sign__in__form button{
+  width: 299px;
+  border: none;
+  background-color: white;
+  float: left;
+  /* padding-bottom: 20px; */
+  font-size: 20px;
+}
+.sign__in__form .btn-dn{
+  color: #7fad39;
+}
+.sign__in__form .btn-dk{
+  color: #7fad39;
+}
+.sign__in__form button:hover {
+  border-bottom: 2px solid #7fad39;
+}
+.sign__in__form input{
+  width: 560px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 20px;
+  border: 1px solid #7fad39;
+  /* color: #6f6f6f; */
+  font-size: 14px;
+  border-radius: 5px;
+}
+.sign__in__form #submit{
+  color: #ffffff;
+  background-color: #7fad39;
+  margin-bottom: 5px;
+}
+.sign__in__form #submit:hover{
+  background-color: #aadd5c;
+}
+.sign__in__form .forget-pass{
+  color: #636363;
+  /* margin-bottom: 50px; */
+}
+.sign__in__form .forget-pass:hover{
+  color: #7fad39;
+}
+.sign__in__form h4{
+  margin-top: 30px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.sign__in__form .face{
+  color: darkblue;
+  font-size: 30px;
+  margin-right: 10px;
+}
+.sign__in__form .google{
+  color: red;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.sign__in__form .nice-select{
+  width: 560px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-left: 20px;
+  border: 1px solid #7fad39;
+  /* color: #6f6f6f; */
+  font-size: 14px;
+  border-radius: 5px;
+  
+
+}
+.sign__in__form .nice-select ul{
+  height: 500px;
+  overflow-y: scroll;
+}
+.sign__up{
+  height: 650px;
+  margin: auto;
+}
