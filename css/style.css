@@ -29,7 +29,9 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
-
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
 html,
 body {
   height: 100%;
@@ -764,15 +766,29 @@ ol {
 	padding: 15px 0;
 	text-align: center;
 }
-.banner_top p{
-	display: inline-block;
-
+.title{
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+.title >p{
+  display: block;
+  font-size: 50px;
+  color: green;
 }
 .banner_top .row{
-	text-align:center;
+	justify-content: center;
 }
 .banner_top .row p{
-	padding-right: 50px;
+  display: inline-block;
+  padding:0px 30px;
+  font-size: 25px;
+  border-right: 2px solid;
+}
+.banner_top .row p:last-child{
+  display: inline-block;
+  padding:0px 30px;
+  font-size: 25px;
+  border: none;
 }
 
 
