@@ -3595,3 +3595,31 @@ ol {
   height: 650px;
   margin: auto;
 }
+/* FOLLOW DON HANG */
+.order-heading{
+  height: 50px;
+  margin-bottom: 25px;
+}
+.order-heading h3{
+  color: #666666;
+  font-size: 22px;
+  float: left;
+  margin-top: 5px;
+}
+.order-heading .view-detail{
+  float:right;
+  display: block;
+  background-color: #3cc032;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
+}
+.order-status p{
+  color: #000000;
+  font-size: 14px;
+  font-weight: normal;
+}
