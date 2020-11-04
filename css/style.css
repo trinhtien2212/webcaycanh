@@ -3639,3 +3639,174 @@ ol {
   font-size: 14px;
   font-weight: normal;
 }
+/*///////////////////////////////// css cho comment reviews/////////////////////////////////////////////////// */
+.product-rating-overview {
+  background-color: #fffbf8;
+  min-height: 5rem;
+  border: 1px solid #eb6c17;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 2px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 1.875rem;
+  width: 85%;
+  margin: auto;
+}
+.product-rating-overview__briefing {
+  text-align: center;
+  margin-right: 1.875rem;
+}
+ .product-rating-overview__filters {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-left: .9375rem;
+} */
+ body, html {
+  font-family: Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;
+  color: rgba(0,0,0,.8);
+  line-height: 1.2;
+}
+body {
+  font-size: .875rem;
+} 
+.product-rating-overview__filter {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 2rem;
+  line-height: 2rem;
+  min-width: 6.25rem;
+  text-align: center;
+  padding: 0 .625rem;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.09);
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-right: .5rem;
+  text-decoration: none;
+  color: rgba(0,0,0,.8);
+  text-transform: capitalize;
+  border-radius: 2px;
+  margin-bottom: .3125rem;
+  margin-top: .3125rem;
+}
+.product-rating-overview__score-wrapper {
+  color: #ee4d2d;
+  font-size: 1.125rem;
+}
+
+/* stye cho phan duoi */
+.shopee-product-rating__avatar {
+  width: 2.5rem;
+  margin-right: .625rem;
+  text-align: center;
+}
+
+.shopee-product-rating__avatar .shopee-avatar {
+  border: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.shopee-avatar {
+  display: inline-block;
+  width: 1.875rem;
+  height: 1.875rem;
+  position: relative;
+  border-radius: 50%;
+  border: .0625rem solid rgba(0,0,0,.09);
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: auto;
+}
+.shopee-product-rating__avatar {
+  width: 2.5rem;
+  margin-right: .625rem;
+  text-align: center;
+}
+
+.shopee-avatar__placeholder {
+  width: 100%;
+  position: relative;
+  padding-top: 100%;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.shopee-avatar__placeholder .icon-headshot {
+  stroke: #c6c6c6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.shopee-svg-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  position: relative;
+}
+.shopee-product-rating__avatar {
+  width: 2.5rem;
+  margin-right: .625rem;
+  text-align: center;
+}
+.shopee-avatar__placeholder .icon-headshot {
+  stroke: #c6c6c6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.shopee-avatar__img{
+  width: 50px;
+  height: 50px;
+}
+.comment-reviews{
+  height: 150px;
+  width: 1115px;
+  background-color: #ffffff;
+  margin: auto;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid #c6c2c1;
+  margin-bottom: 10px;
+} 
+.sao{
+  color: orangered;
+}
+i{
+  color: slategrey;
+}
+.size-time{
+  font-size: 11px;
+  color: red;
+}
