@@ -754,6 +754,33 @@ ol {
 .hero__text p {
   margin-bottom: 35px;
 }
+
+.relative_pos{
+  position: relative;
+}
+.blur{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background-color: rgba(243, 243, 243, 0.651);
+}
+.full-screen{
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+}
+.full-screen h2{
+  color: green;
+  font-size: 1%;
+}
+.full-screen p{
+  font-size: 20px;
+  font-size: 1%;
+  color: #1d7a00;
+  font-weight: bold;
+}
 /*---------------------
 	Banner top 
 ---------------------*/
@@ -861,6 +888,12 @@ ol {
 .featured__controls {
   text-align: center;
   margin-bottom: 50px;
+  
+  
+}
+.height-prevent{
+  height: 700px;
+  overflow: auto;
 }
 
 .featured__controls ul li {
@@ -1058,6 +1091,9 @@ ol {
   display: block;
   color: #252525;
   font-weight: 700;
+}
+.fix_size{
+  width: 110px;
 }
 
 /*---------------------
@@ -2692,6 +2728,7 @@ ol {
 
 .footer__about__logo {
   margin-bottom: 15px;
+  margin-top: -20px;
 }
 
 .footer__about__logo a {
@@ -2704,8 +2741,9 @@ ol {
 }
 
 .footer__widget h6 {
-  color: #1c1c1c;
+  color: #7FAD39;
   font-weight: 700;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
@@ -2713,6 +2751,13 @@ ol {
   width: 50%;
   float: left;
 }
+.no_flex ul{
+  width: 100%;
+  float: none;
+  font-size: 16px;
+  line-height: 36px;
+}
+
 
 .footer__widget ul li {
   list-style: none;
@@ -2729,7 +2774,10 @@ ol {
   color: #1c1c1c;
   margin-bottom: 30px;
 }
-
+.no_flex p{
+  font-size: 16px;
+  line-height: 36px;
+}
 .footer__widget form {
   position: relative;
   margin-bottom: 30px;
