@@ -1122,36 +1122,36 @@ ol {
   align-items: center;
   padding: 45px 0 40px;
 }
-
+/* Tiến edit phần color */
 .breadcrumb__text h2 {
   font-size: 46px;
-  color: #ffffff;
+  color: green;
   font-weight: 700;
 }
-
+/* Tiến edit phần color */
 .breadcrumb__option a {
   display: inline-block;
   font-size: 16px;
-  color: #ffffff;
+  color: grey;
   font-weight: 700;
   margin-right: 20px;
   position: relative;
 }
-
+/* Tiến edit phần color */
 .breadcrumb__option a:after {
   position: absolute;
   right: -12px;
   top: 13px;
   height: 1px;
   width: 10px;
-  background: #ffffff;
+  background: grey;
   content: "";
 }
-
+/* Tiến edit phần color */
 .breadcrumb__option span {
   display: inline-block;
   font-size: 16px;
-  color: #ffffff;
+  color:grey;
 }
 
 /*---------------------
