@@ -1701,7 +1701,11 @@ ol {
   color: #252525;
   font-weight: 700;
 }
-
+.product__item__text h5 span{
+  color: #b2b2b2;
+  text-decoration: line-through;
+  font-size: 14px;
+}
 .product__pagination,
 .blog__pagination {
   padding-top: 10px;
@@ -1790,7 +1794,11 @@ ol {
   font-weight: 600;
   margin-bottom: 15px;
 }
-
+.product__details__text .product__details__price span{
+  color: #b2b2b2;
+  text-decoration: line-through;
+  font-size: 18px;
+}
 .product__details__text p {
   margin-bottom: 45px;
 }
@@ -2003,6 +2011,9 @@ ol {
 .shoping__cart__table table tbody tr td.shoping__cart__item img {
   display: inline-block;
   margin-right: 25px;
+  width: 189px;
+  height: 149px;
+
 }
 
 .shoping__cart__table table tbody tr td.shoping__cart__item h5 {
@@ -2014,7 +2025,7 @@ ol {
   font-size: 18px;
   color: #1c1c1c;
   font-weight: 700;
-  width: 100px;
+  width: 329px;
 }
 
 .shoping__cart__table table tbody tr td.shoping__cart__total {
@@ -2111,7 +2122,7 @@ ol {
   padding: 15px 30px 11px;
   font-size: 12px;
   letter-spacing: 4px;
-  background: #6f6f6f;
+  background: #7fad39;
 }
 
 .shoping__checkout {
@@ -3689,9 +3700,9 @@ ol {
 }
 /*///////////////////////////////// css cho comment reviews/////////////////////////////////////////////////// */
 .product-rating-overview {
-  background-color: #fffbf8;
+  background-color:  #7fad39;
   min-height: 5rem;
-  border: 1px solid #eb6c17;
+  border: 1px solid #7fad39;
   margin-bottom: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
