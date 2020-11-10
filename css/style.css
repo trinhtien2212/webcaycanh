@@ -164,13 +164,14 @@ ol {
 
 .primary-btn {
   display: inline-block;
-  font-size: 14px;
-  padding: 10px 28px 10px;
+  font-size: 12px;
+  padding: 10px 19px 10px;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 700;
   background: #7fad39;
   letter-spacing: 2px;
+}
 }
 
 .site-btn {
@@ -1813,7 +1814,7 @@ ol {
 }
 
 .product__details__text .primary-btn {
-  padding: 16px 28px 14px;
+  padding: 16px 19px 14px;
   margin-right: 6px;
   margin-bottom: 5px;
 }
