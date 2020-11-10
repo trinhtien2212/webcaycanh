@@ -31,34 +31,34 @@
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
         <div class="humberger__menu__logo">
-            <a href="#"><img src="img/logo.png" alt=""></a>
+            <a href="#"><img src="img/banner/bieutuong_off.png" alt=""></a>
         </div>
         <div class="humberger__menu__cart">
             <ul>
                 <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
                 <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
             </ul>
-            <div class="header__cart__price">item: <span>$150.00</span></div>
+            <div class="header__cart__price">Tổng:<span>150.000đ</span></div>
         </div>
         <div class="humberger__menu__widget">
             <div class="header__top__right__auth">
-                <a href="#"><i class="fa fa-user"></i>Đăng Nhập</a>
+                <a href="sign-in.html"><i class="fa fa-user"></i>Đăng Nhập</a>
             </div>
         </div>
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
                 <li class="active"><a href="./index.html">Trang Chủ</a></li>
-                <li><a href="./shop-grid.html">Cửa Hàng</a></li>
-                <li><a href="./blog.html">Nhật Ký</a></li>
+                <li><a href="./shop-grid.html">Mua Sắm</a></li>
+                <!-- <li><a href="./blog.html">Nhật Ký</a></li> -->
                 <li><a href="./contact.html">Liên Hệ</a></li>
-                <li><a href="#">Thêm</a>
+                <!-- <li><a href="#">Thêm</a>
                     <ul class="header__menu__dropdown">
                         <li><a href="./shop-details.html">Chi Tiết Sản Phẩm</a></li>
                         <li><a href="./shoping-cart.html">Giỏ Hàng</a></li>
                         <li><a href="./checkout.html">Thanh Toán</a></li>
                         <li><a href="./blog-details.html">Giới Thiệu Cửa Hàng</a></li>
                     </ul>
-                </li>
+                </li> -->
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
@@ -99,7 +99,7 @@
                                 <a href="#"><i class="fa fa-pinterest-p"></i></a>
                             </div>
                             <div class="header__top__right__auth">
-                                <a href="#"><i class="fa fa-user"></i> Đăng Nhập</a>
+                                <a href="sign-in.html"><i class="fa fa-user"></i> Đăng Nhập</a>
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <a href="./index.html"><img src="img/banner/bieutuong_off.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -147,23 +147,68 @@
     </header>
     <!-- Header Section End -->
 
-    <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
+    <!-- Hero Section Begin -->
+    <section class="hero hero-normal">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 text-center">
-                    <div class="breadcrumb__text">
-                        <h2>Đăng Ký</h2>
-                        <div class="breadcrumb__option">
-                            <a href="./index.html">Trang Chủ</a>
-                            <span>Đăng Ký</span>
+                <div class="col-lg-3">
+                    <div class="hero__categories">
+                        <div class="hero__categories__all">
+                            <i class="fa fa-bars"></i>
+                            <span>Danh Mục</span>
+                        </div>
+                        <ul>
+                            <li><a href="#">Cây để bàn</a></li>
+                            <li><a href="#">Cây dây leo</a></li>
+                            <li><a href="#">Cây tết</a></li>
+                            <li><a href="#">Cây thủy sinh</a></li>
+                            <li><a href="#">Cây trong nhà</a></li>
+                            <li><a href="#">Cây ngoài vườn</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="hero__search">
+                        <div class="hero__search__form">
+                            <form action="#">
+                                <div class="hero__search__categories">
+                                    Tất Cả
+                                    <span class="arrow_carrot-down"></span>
+                                </div>
+                                <input type="text" placeholder="Tên cây cảnh">
+                                <button type="submit" class="site-btn">TÌM KIẾM</button>
+                            </form>
+                        </div>
+                        <div class="hero__search__phone">
+                            <div class="hero__search__phone__icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="hero__search__phone__text">
+                                <h5>+84353535355</h5>
+                                <span>Hỗ trợ 24/7</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Breadcrumb Section End -->
+    <!-- Hero Section End -->
+
+    <!-- Banner top Begin -->
+    <div class="banner">
+        <div class="container banner_top">
+            <div class="title">
+                <!-- <p><i class="fas fa-seedling"></i></p> -->
+                <p>Thế giới cây cảnh</p>
+            </div>
+            <div class="row ">
+                <p>Trang Chủ</p>
+                <p>Đăng Kí</p>
+            </div>
+        </div>
+    </div>
+    <!-- End of banner top-->
 
     <!-- Sign In Section Begin -->
     <section class="sign-in spad">
@@ -261,46 +306,36 @@
     <footer class="footer spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__about__logo">
-                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                            <a href="./index.html"><img src="img/banner/bieutuong_off.png" alt=""></a>
                         </div>
                         <ul>
-                            <li>Address: 60-49 Road 11378 New York</li>
-                            <li>Phone: +65 11.188.888</li>
-                            <li>Email: hello@colorlib.com</li>
+                            <li>Địa chỉ: Đại học Nông Lâm TP.HCM</li>
+                            <li>Điện thoại: +84353535355</li>
+                            <li>Email: thegioicaycanhNLU@gmail.com</li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
-                    <div class="footer__widget">
-                        <h6>Useful Links</h6>
+                <div class="col-lg-4 col-md-6 col-sm-6 ">
+                    <div class="footer__widget no_flex">
+                        <h6>Địa chỉ bán lẻ</h6>
                         <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">About Our Shop</a></li>
-                            <li><a href="#">Secure Shopping</a></li>
-                            <li><a href="#">Delivery infomation</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Our Sitemap</a></li>
+                            <li>Địa chỉ: KIOT 35, đường số 6, Đại học Nông Lâm</li>
+                            <li>Điện thoại: +84353535355</li>
+                            <li>Email: thegioicaycanhNLU@gmail.com</li>
                         </ul>
-                        <ul>
-                            <li><a href="#">Who We Are</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Innovation</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                        </ul>
+                            
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
-                    <div class="footer__widget">
-                        <h6>Join Our Newsletter Now</h6>
-                        <p>Get E-mail updates about our latest shop and special offers.</p>
+                    <div class="footer__widget no_flex">
+                        <h6>Để lại thông tin liên hệ</h6>
+                        <p>Tư vấn chăm sóc, mua bán cây</p>
                         <form action="#">
-                            <input type="text" placeholder="Enter your mail">
-                            <button type="submit" class="site-btn">Subscribe</button>
+                            <input type="text" placeholder="Email">
+                            <button type="submit" class="site-btn">Gửi</button>
                         </form>
                         <div class="footer__widget__social">
                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -311,18 +346,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer__copyright">
-                        <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
-                        <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
-                    </div>
-                </div>
-            </div>
         </div>
     </footer>
+    
     <!-- Footer Section End -->
 
     <!-- Js Plugins -->
