@@ -1,125 +1,140 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Giảm giá</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-</head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css" />
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
 
-<body>
+  <body>
     <!-- Page Preloder -->
     <div id="preloder">
-        <div class="loader"></div>
+      <div class="loader"></div>
     </div>
 
     <!-- Humberger Begin -->
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
-        <div class="humberger__menu__logo">
-            <a href="#"><img src="img/banner/bieutuong_off.png" alt=""></a>
+      <div class="humberger__menu__logo">
+        <a href="#"><img src="img/banner/bieutuong_off.png" alt="" /></a>
+      </div>
+      <div class="humberger__menu__cart">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-heart"></i> <span>1</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a>
+          </li>
+        </ul>
+        <div class="header__cart__price">Tổng <span>150.000đ</span></div>
+      </div>
+      <div class="humberger__menu__widget">
+        <div class="header__top__right__auth">
+          <a href="#"><i class="fa fa-user"></i>Đăng Nhập</a>
         </div>
-        <div class="humberger__menu__cart">
-            <ul>
-                <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
-            </ul>
-            <div class="header__cart__price">Tổng:<span>150.000đ</span></div>
-        </div>
-        <div class="humberger__menu__widget">
-            <div class="header__top__right__auth">
-                <a href="#"><i class="fa fa-user"></i>Đăng Nhập</a>
-            </div>
-        </div>
-        <nav class="humberger__menu__nav mobile-menu">
-            <ul>
-                <li class="active"><a href="./index.html">Trang Chủ</a></li>
-                <li><a href="./shop-grid.html">Cửa Hàng</a></li>
-                <li><a href="./blog.html">Nhật Ký</a></li>
-                <li><a href="./contact.html">Liên Hệ</a></li>
-                <li><a href="#">Thêm</a>
-                    <ul class="header__menu__dropdown">
-                        <li><a href="./shop-details.html">Chi Tiết Sản Phẩm</a></li>
-                        <li><a href="./shoping-cart.html">Giỏ Hàng</a></li>
-                        <li><a href="./checkout.html">Thanh Toán</a></li>
-                        <li><a href="./blog-details.html">Giới Thiệu Cửa Hàng</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-        <div id="mobile-menu-wrap"></div>
-        <div class="header__top__right__social">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-pinterest-p"></i></a>
-        </div>
-        <div class="humberger__menu__contact">
-            <ul>
-                <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-                <li>Miễn Phí Giao Hàng Cho Các Đơn Từ 499.000đ</li>
-            </ul>
-        </div>
+      </div>
+      <nav class="humberger__menu__nav mobile-menu">
+        <ul>
+          <li class="active"><a href="./index.html">Trang Chủ</a></li>
+          <li><a href="./shop-grid.html">Cửa Hàng</a></li>
+          <!-- <li><a href="./blog.html">Nhật Ký</a></li> -->
+          <li><a href="./contact.html">Liên Hệ</a></li>
+          <li>
+            <!-- <a href="#">Thêm</a>
+            <ul class="header__menu__dropdown">
+              <li><a href="./shop-details.html">Chi Tiết Sản Phẩm</a></li>
+              <li><a href="./shoping-cart.html">Giỏ Hàng</a></li>
+              <li><a href="./checkout.html">Thanh Toán</a></li>
+              <li><a href="./blog-details.html">Giới Thiệu Cửa Hàng</a></li>
+            </ul> -->
+          </li>
+        </ul>
+      </nav>
+      <div id="mobile-menu-wrap"></div>
+      <div class="header__top__right__social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-pinterest-p"></i></a>
+      </div>
+      <div class="humberger__menu__contact">
+        <ul>
+          <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
+          <li>Miễn Phí Giao Hàng Cho Các Đơn Từ 499.000đ</li>
+        </ul>
+      </div>
     </div>
     <!-- Humberger End -->
 
     <!-- Header Section Begin -->
     <header class="header">
-        <div class="header__top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="header__top__left">
-                            <ul>
-                                <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-                                <li>Miễn Phí Giao Hàng Cho Các Đơn Từ 499.000đ</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="header__top__right">
-                            <div class="header__top__right__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                            </div>
-                            <div class="header__top__right__auth">
-                                <a href="#"><i class="fa fa-user"></i> Đăng Nhập</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div class="header__top">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="header__logo">
-                        <a href="./index.html"><img src="img/banner/bieutuong_off.png" alt=""></a>
-                    </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="header__top__left">
+                <ul>
+                  <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
+                  <li>Miễn Phí Giao Hàng Cho Các Đơn Từ 499.000đ</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="header__top__right">
+                <div class="header__top__right__social">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-pinterest-p"></i></a>
                 </div>
-                <div class="col-lg-6">
-                    <nav class="header__menu">
-                        <ul>
-                            <li class="active"><a href="./index.html">Trang Chủ</a></li>
-                            <li><a href="./shop-grid.html">Mua sắm</a></li>
-                            <li><a href="./contact.html">Liên hệ</a></li>
-                            <!-- <li><a href="#">Thêm</a>
+                <div class="header__top__right__auth">
+                  <a href="#"><i class="fa fa-user"></i> Đăng Nhập</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="header__logo">
+              <a href="./index.html"
+                ><img src="img/banner/bieutuong_off.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <nav class="header__menu">
+              <ul>
+                <li class="active"><a href="./index.html">Trang Chủ</a></li>
+                <li><a href="./shop-grid.html">Mua sắm</a></li>
+                <li><a href="./contact.html">Liên hệ</a></li>
+                <!-- <li><a href="#">Thêm</a>
                                 <ul class="header__menu__dropdown">
                                     <li><a href="./shop-details.html">Chi Tiết Sản Phẩm</a></li>
                                     <li><a href="./shoping-cart.html">Giỏ Hàng</a></li>
@@ -127,405 +142,1166 @@
                                     <li><a href="./blog-details.html">Giới Thiệu</a></li>
                                 </ul>
                             </li> -->
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-lg-3">
-                    <div class="header__cart">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
-                        </ul>
-                        <div class="header__cart__price">Tổng:<span>150.000đ</span></div>
-                    </div>
-                </div>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-lg-3">
+            <div class="header__cart">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-heart"></i> <span>1</span></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-shopping-bag"></i> <span>3</span></a
+                  >
+                </li>
+              </ul>
+              <div class="header__cart__price">Tổng:<span>150.000đ</span></div>
             </div>
-            <div class="humberger__open">
-                <i class="fa fa-bars"></i>
-            </div>
+          </div>
         </div>
+        <div class="humberger__open">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
     </header>
     <!-- Header Section End -->
-  <!-- Hero Section Begin -->
+    <!-- Hero Section Begin -->
     <section class="hero hero-normal">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="hero__categories">
-                        <div class="hero__categories__all">
-                            <i class="fa fa-bars"></i>
-                            <span>Danh Mục</span>
-                        </div>
-                        <ul>
-                            
-                            <li><a href="#">Cây để bàn</a></li>
-                            <li><a href="#">Cây dây leo</a></li>
-                            <li><a href="#">Cây tết</a></li>
-                            <li><a href="#">Cây thủy sinh</a></li>
-                            <li><a href="#">Cây trong nhà</a></li>
-                            <li><a href="#">Cây ngoài vườn</a></li>
-                            <!-- <li><a href="#">Hoa Chậu</a></li>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="hero__categories">
+              <div class="hero__categories__all">
+                <i class="fa fa-bars"></i>
+                <span>Danh Mục</span>
+              </div>
+              <ul>
+                <li><a href="#">Cây để bàn</a></li>
+                <li><a href="#">Cây dây leo</a></li>
+                <li><a href="#">Cây tết</a></li>
+                <li><a href="#">Cây thủy sinh</a></li>
+                <li><a href="#">Cây trong nhà</a></li>
+                <li><a href="#">Cây ngoài vườn</a></li>
+                <!-- <li><a href="#">Hoa Chậu</a></li>
                             <li><a href="#">Đất Trồng Cây</a></li>
                             <li><a href="#">Dụng Cụ Làm Vườn</a></li>
                             <li><a href="#">Chậu Cảnh</a></li>
                             <li><a href="#">Tiểu Cảnh</a></li> -->
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-9">
-                    <div class="hero__search">
-                        <div class="hero__search__form">
-                            <form action="#">
-                                <div class="hero__search__categories">
-                                    Tất Cả
-                                    <span class="arrow_carrot-down"></span>
-                                </div>
-                                <input type="text" placeholder="Tên cây cảnh">
-                                <button type="submit" class="site-btn">TÌM KIẾM</button>
-                            </form>
-                        </div>
-                        <div class="hero__search__phone">
-                            <div class="hero__search__phone__icon">
-                                <i class="fa fa-phone"></i>
-                            </div>
-                            <div class="hero__search__phone__text">
-                                <h5>+84353535355</h5>
-                                <span>Hỗ trợ 24/7</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </ul>
             </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="hero__search">
+              <div class="hero__search__form">
+                <form action="#">
+                  <div class="hero__search__categories">
+                    Tất Cả
+                    <span class="arrow_carrot-down"></span>
+                  </div>
+                  <input type="text" placeholder="Tên cây cảnh" />
+                  <button type="submit" class="site-btn">TÌM KIẾM</button>
+                </form>
+              </div>
+              <div class="hero__search__phone">
+                <div class="hero__search__phone__icon">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <div class="hero__search__phone__text">
+                  <h5>+84353535355</h5>
+                  <span>Hỗ trợ 24/7</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-<!-- Hero Section End -->
+    <!-- Hero Section End -->
 
-  <!-- Breadcrumb Section Begin -->
-  <section class="breadcrumb-section set-bg" data-setbg="img/banner/bg1.png">
-    <div class="container">
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-section set-bg" data-setbg="img/banner/bg1.png">
+      <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="breadcrumb__text">
-                    <h2>Thế Giới Cây Cảnh</h2>
-                    <div class="breadcrumb__option">
-                        <a href="./index.html">Trang Chủ</a>
-                        <span>Giảm giá</span>
-                    </div>
-                </div>
+          <div class="col-lg-12 text-center">
+            <div class="breadcrumb__text">
+              <h2>Thế Giới Cây Cảnh</h2>
+              <div class="breadcrumb__option">
+                <a href="./index.html">Trang Chủ</a>
+                <span>Giảm giá</span>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</section>
-<!-- Breadcrumb Section End -->
+      </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+    <div id="sys_mod_filter" class="mod-filter">
+      <div class="grid_frame">
+          <div class="container_grid clearfix">
+              <div class="grid_12">
+                  <div class="lbl-search">
+                      <input class="txt-search" id="sys_txt_search" type="search" placeholder="Search"/>
+                      <input type="submit" class="btn-search" value=""/>
+                  </div>
+                  <div class="select-cate">
+                      <div id="sys_selected_val" class="show-val">
+                          <span data-cate-id="0">All type</span>
+                          <i class="pick-down"></i>
+                      </div>
+                      <div id="sys_list_dd_cate" class="dropdown-cate">
+                          <div class="first-lbl">All Categories</div>
+                          <div class="wrap-list-cate clearfix">
+                              <a href="#" data-cate-id="1">Baby & Toddler</a>
+                              <a href="#" data-cate-id="2">Automotive </a>
+                              <a href="#" data-cate-id="3">Beverages</a>
+                              <a href="#" data-cate-id="4">Books & Magazines</a>
+                              <a href="#" data-cate-id="5">Foods </a>
+                              <a href="#" data-cate-id="6">Health Care</a>
+                              <a href="#" data-cate-id="7">Home Entertainment</a>
+                              <a href="#" data-cate-id="8">Personal Care </a>
+                              <a href="#" data-cate-id="9">Pet Care </a>
+                              <a href="#" data-cate-id="10">Professional Services </a>
+                              <a href="#" data-cate-id="11">Toys and Games</a>
+                              <a href="#" data-cate-id="12">Coupon Codes</a>
+                              <a href="#" data-cate-id="13">Recipes</a>
+                              <a href="#" data-cate-id="14">Household </a>
+                          </div>
+                      </div>
+                  </div><!--end: .select-cate -->
+                  <div class="range-days-left">
+                      <span class="lbl-day">Days left</span>
+                      <span id="sys_min_day" class="min-day"></span>
+                      <div id="sys_filter_days_left" class="filter-days"></div>
+                      <span id="sys_max_day" class="max-day"></span>
+                  </div><!--end: .range-days-left -->
+                  <input id="sys_apply_filter" class="btn btn-red type-1 btn-apply-filter" type="button" value="Apply Filter">
+              </div>
+          </div>
+      </div>
+  </div><!--end: .mod-filter -->
 
-<!-- Edit here -->
-    <!-- Featured Section Begin -->
-    <section class="featured spad">
-        <div class="container">
-            <div class="row">
+    <!-- Edit code here -->
+    <div class="container mt-3">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#product-sale"
+            >Sản phẩm giảm giá</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="show_immediately"
+            data-toggle="tab"
+            href="#coupon-code"
+            >Mã khuyến mãi</a
+          >
+        </li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div id="product-sale" class="container tab-pane active">
+          <br />
+          <section class="featured spad">
+            <div class="container">
+              <div class="row">
                 <div class="col-lg-12">
-                    <div class="section-title">
-                        <img src="img/sale/flash.gif" alt="flash sale">
-                        <img src="img/sale/gia_soc.svg" alt="gia soc">
-                       
-                    </div>
-                    <div class="featured__controls ">
-                        <ul>
-                            <li class="active" data-filter="*">Tất cả</li>
-                            <li data-filter=".cay-de-ban">Cây để bàn</li>
-                            <li data-filter=".cay-day-leo">Cây dây leo</li>
-                            <li data-filter=".cay-tet">Cây tết</li>
-                            <li data-filter=".cay-thuy-sinh">Cây thủy sinh</li>
-                            <li data-filter=".cay-trong-nha">Cây trong nhà</li>
-                            <li data-filter=".cay-ngoai-vuon">Cây ngoài vườn</li>
+                  <div class="section-title">
+                    <img src="img/sale/flash.gif" alt="flash sale" />
+                    <img src="img/sale/gia_soc.svg" alt="gia soc" />
+                  </div>
+                  <div class="featured__controls">
+                    <ul>
+                      <li class="active" data-filter="*">Tất cả</li>
+                      <li data-filter=".cay-de-ban">Cây để bàn</li>
+                      <li data-filter=".cay-day-leo">Cây dây leo</li>
+                      <li data-filter=".cay-tet">Cây tết</li>
+                      <li data-filter=".cay-thuy-sinh">Cây thủy sinh</li>
+                      <li data-filter=".cay-trong-nha">Cây trong nhà</li>
+                      <li data-filter=".cay-ngoai-vuon">Cây ngoài vườn</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="featured__filter">
+                <div class="row">
+                  <div
+                    class="col-lg-3 col-md-4 col-sm-6 mb-2 mix cay-trong-nha cay-de-ban"
+                  >
+                    <div class="product__discount__item">
+                      <div
+                        class="product__discount__item__pic set-bg"
+                        data-setbg="img/sale/suong-rong-da-mini.jpg"
+                      >
+                        <div class="product__discount__percent">-10%</div>
+                        <ul class="product__item__pic__hover">
+                          <li>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-retweet"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                          </li>
                         </ul>
+                      </div>
+                      <div class="product__discount__item__text">
+                        <h5><a href="#">Sương rồng đá mini</a></h5>
+                        <div class="product__item__price">
+                          45.000 VNĐ <span>50.000 VNĐ</span>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-4 col-sm-6 mb-3 mix cay-trong-nha"
+                  >
+                    <div class="product__discount__item">
+                      <div
+                        class="product__discount__item__pic set-bg"
+                        data-setbg="img/sale/cay-de-vuong-van-phong.jpg"
+                      >
+                        <div class="product__discount__percent">-20%</div>
+                        <ul class="product__item__pic__hover">
+                          <li>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-retweet"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="product__discount__item__text">
+                        <h5><a href="#">Cây đế vương</a></h5>
+                        <div class="product__item__price">
+                          360.000 VNĐ <span>450.000 VNĐ</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-4 col-sm-6 mb-3 mix cay-de-ban cay-trong-nha"
+                  >
+                    <div class="product__discount__item">
+                      <div
+                        class="product__discount__item__pic set-bg"
+                        data-setbg="img/sale/cay-dua-canh-nen.jpg"
+                      >
+                        <div class="product__discount__percent">-15%</div>
+                        <ul class="product__item__pic__hover">
+                          <li>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-retweet"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="product__discount__item__text">
+                        <h5><a href="#">Cây dứa cảnh nến</a></h5>
+                        <div class="product__item__price">
+                          110.000 VNĐ <span>130.000 VNĐ</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-4 col-sm-6 mb-3 mix cay-day-leo cay-ngoai-vuon"
+                  >
+                    <div class="product__discount__item">
+                      <div
+                        class="product__discount__item__pic set-bg"
+                        data-setbg="img/sale/cay-giot-suong.jpg"
+                      >
+                        <div class="product__discount__percent">-25%</div>
+                        <ul class="product__item__pic__hover">
+                          <li>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-retweet"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="product__discount__item__text">
+                        <h5><a href="#">Cây sen đá giọt sương</a></h5>
+                        <div class="product__item__price">
+                          112.000 VNĐ<span>150.000 VNĐ</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-4 col-sm-6 mb-3 mix cay-thuy-sinh cay-de-ban cay-trong-nha"
+                  >
+                    <div class="product__discount__item">
+                      <div
+                        class="product__discount__item__pic set-bg"
+                        data-setbg="img/sale/cay-lan-y-thuy-sinh-dep.jpg"
+                      >
+                        <div class="product__discount__percent">-10%</div>
+                        <ul class="product__item__pic__hover">
+                          <li>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-retweet"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="product__discount__item__text">
+                        <h5><a href="#">Cây lan ý thủy sinh</a></h5>
+                        <div class="product__item__price">
+                          135.000 VNĐ<span>150.000 VNĐ</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-4 col-sm-6 mb-3 mix cay-ngoai-vuon"
+                  >
+                    <div class="product__discount__item">
+                      <div
+                        class="product__discount__item__pic set-bg"
+                        data-setbg="img/sale/cay-ngu-gia-bi.jpg"
+                      >
+                        <div class="product__discount__percent">-5%</div>
+                        <ul class="product__item__pic__hover">
+                          <li>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-retweet"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="product__discount__item__text">
+                        <h5><a href="#">Cây ngũ gia bì</a></h5>
+                        <div class="product__item__price">
+                          90.000 VNĐ<span>95.000 VNĐ</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -------------------Viet moi -->
+                  <div
+                    class="col-lg-3 col-md-4 col-sm-6 mb-3 mix cay-de-ban cay-trong-nha"
+                  >
+                    <div class="product__discount__item">
+                      <div
+                        class="product__discount__item__pic set-bg"
+                        data-setbg="img/sale/tung-bong-lai.jpg"
+                      >
+                        <div class="product__discount__percent">-15%</div>
+                        <ul class="product__item__pic__hover">
+                          <li>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-retweet"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="product__discount__item__text">
+                        <h5><a href="#">Cây tùng bồng lai</a></h5>
+                        <div class="product__item__price">
+                          129.000 VNĐ<span>150.000 VNĐ</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-4 col-sm-6 mb-3 mix cay-trong-nha cay-de-ban"
+                  >
+                    <div class="product__discount__item">
+                      <div
+                        class="product__discount__item__pic set-bg"
+                        data-setbg="img/sale/sen-da-do-la.jpg"
+                      >
+                        <div class="product__discount__percent">-5%</div>
+                        <ul class="product__item__pic__hover">
+                          <li>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-retweet"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="product__discount__item__text">
+                        <h5><a href="#">Cây sen đá Dollar</a></h5>
+                        <div class="product__item__price">
+                          90.000 VNĐ<span>95.000 VNĐ</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-4 col-sm-6 mb-3 mix cay-thuy-sinh cay-trong-nha cay-de-ban"
+                  >
+                    <div class="product__discount__item">
+                      <div
+                        class="product__discount__item__pic set-bg"
+                        data-setbg="img/sale/ngoc-ngan.jpg"
+                      >
+                        <div class="product__discount__percent">-19%</div>
+                        <ul class="product__item__pic__hover">
+                          <li>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-retweet"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="product__discount__item__text">
+                        <h5><a href="#">Cây ngọc ngân</a></h5>
+                        <div class="product__item__price">
+                          125.000 VNĐ<span>155.000 VNĐ</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-4 col-sm-6 mb-3 mix cay-ngoai-vuon"
+                  >
+                    <div class="product__discount__item">
+                      <div
+                        class="product__discount__item__pic set-bg"
+                        data-setbg="img/sale/cay-mai-van-phuc.jpg"
+                      >
+                        <div class="product__discount__percent">-11%</div>
+                        <ul class="product__item__pic__hover">
+                          <li>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-retweet"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="product__discount__item__text">
+                        <h5><a href="#">Cây mai vạn phúc</a></h5>
+                        <div class="product__item__price">
+                          88.000 VNĐ<span>99.000 VNĐ</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-4 col-sm-6 mb-3 mix cay-tet cay-ngoai-vuon"
+                  >
+                    <div class="product__discount__item">
+                      <div
+                        class="product__discount__item__pic set-bg"
+                        data-setbg="img/sale/cay-hoa-hai-duong.jpg"
+                      >
+                        <div class="product__discount__percent">-15%</div>
+                        <ul class="product__item__pic__hover">
+                          <li>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-retweet"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="product__discount__item__text">
+                        <h5><a href="#">Cây hoa hải đường</a></h5>
+                        <div class="product__item__price">
+                          306.000 VNĐ<span>360.000 VNĐ</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-3 col-md-4 col-sm-6 mb-3 mix cay-day-leo cay-tet cay-ngoai-vuon"
+                  >
+                    <div class="product__discount__item">
+                      <div
+                        class="product__discount__item__pic set-bg"
+                        data-setbg="img/sale/cay-bach-lan-duong.jpg"
+                      >
+                        <div class="product__discount__percent">-13%</div>
+                        <ul class="product__item__pic__hover">
+                          <li>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-retweet"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="product__discount__item__text">
+                        <h5><a href="#">Cây bạch lan dương</a></h5>
+                        <div class="product__item__price">
+                          261.000 VNĐ<span>299.000 VNĐ</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-            <div class="featured__filter ">
-                <div class="row ">
-                    <div class="col-lg-3 col-md-4 col-sm-6 mix cay-trong-nha cay-de-ban">
-                        <div class="product__discount__item">
-                            <div class="product__discount__item__pic set-bg"
-                                data-setbg="img/sale/suong-rong-da-mini.jpg">
-                                <div class="product__discount__percent">-10%</div>
-                                <ul class="product__item__pic__hover">
-                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="product__discount__item__text">
-                                <span>Cây để bàn</span>
-                                <h5><a href="#">Sương rồng đá mini</a></h5>
-                                <div class="product__item__price">45.000 VNĐ <span>50.000 VNĐ</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mix cay-trong-nha ">
-                        <div class="product__discount__item">
-                            <div class="product__discount__item__pic set-bg"
-                                data-setbg="img/sale/cay-de-vuong-van-phong.jpg">
-                                <div class="product__discount__percent">-20%</div>
-                                <ul class="product__item__pic__hover">
-                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="product__discount__item__text">
-                                <span>Cây trong nhà</span>
-                                <h5><a href="#">Cây đế vương</a></h5>
-                                <div class="product__item__price">360.000 VNĐ <span>450.000 VNĐ</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mix cay-de-ban cay-trong-nha ">
-                        <div class="product__discount__item">
-                            <div class="product__discount__item__pic set-bg"
-                                data-setbg="img/sale/cay-dua-canh-nen.jpg">
-                                <div class="product__discount__percent">-15%</div>
-                                <ul class="product__item__pic__hover">
-                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="product__discount__item__text">
-                                <span>Cây để bàn</span>
-                                <h5><a href="#">Cây dứa cảnh nến</a></h5>
-                                <div class="product__item__price">110.000 VNĐ <span>130.000 VNĐ</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mix cay-day-leo cay-ngoai-vuon">
-                        <div class="product__discount__item">
-                            <div class="product__discount__item__pic set-bg"
-                                data-setbg="img/sale/cay-giot-suong.jpg">
-                                <div class="product__discount__percent">-25%</div>
-                                <ul class="product__item__pic__hover">
-                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="product__discount__item__text">
-                                <span>Cây dây leo</span>
-                                <h5><a href="#">Cây sen đá giọt sương</a></h5>
-                                <div class="product__item__price">112.000 VNĐ<span>150.000 VNĐ</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mix cay-thuy-sinh cay-de-ban cay-trong-nha">
-                        <div class="product__discount__item">
-                            <div class="product__discount__item__pic set-bg"
-                                data-setbg="img/sale/cay-lan-y-thuy-sinh-dep.jpg">
-                                <div class="product__discount__percent">-10%</div>
-                                <ul class="product__item__pic__hover">
-                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="product__discount__item__text">
-                                <span>Cây thủy sinh</span>
-                                <h5><a href="#">Cây lan ý thủy sinh</a></h5>
-                                <div class="product__item__price">135.000 VNĐ<span>150.000 VNĐ</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mix cay-ngoai-vuon">
-                        <div class="product__discount__item">
-                            <div class="product__discount__item__pic set-bg"
-                                data-setbg="img/sale/cay-ngu-gia-bi.jpg">
-                                <div class="product__discount__percent">-5%</div>
-                                <ul class="product__item__pic__hover">
-                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="product__discount__item__text">
-                                <span>Cây trong nhà</span>
-                                <h5><a href="#">Cây ngũ gia bì</a></h5>
-                                <div class="product__item__price">90.000 VNĐ<span>95.000 VNĐ</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- -------------------Viet moi -->
-                    <div class="col-lg-3 col-md-4 col-sm-6 mix cay-de-ban cay-trong-nha">
-                        <div class="product__discount__item">
-                            <div class="product__discount__item__pic set-bg"
-                                data-setbg="img/sale/tung-bong-lai.jpg">
-                                <div class="product__discount__percent">-15%</div>
-                                <ul class="product__item__pic__hover">
-                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="product__discount__item__text">
-                                <span>Cây trong nhà</span>
-                                <h5><a href="#">Cây tùng bồng lai</a></h5>
-                                <div class="product__item__price">129.000 VNĐ<span>150.000 VNĐ</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mix cay-trong-nha cay-de-ban">
-                        <div class="product__discount__item">
-                            <div class="product__discount__item__pic set-bg"
-                                data-setbg="img/sale/sen-da-do-la.jpg">
-                                <div class="product__discount__percent">-5%</div>
-                                <ul class="product__item__pic__hover">
-                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="product__discount__item__text">
-                                <span>Cây trong nhà</span>
-                                <h5><a href="#">Cây sen đá Dollar</a></h5>
-                                <div class="product__item__price">90.000 VNĐ<span>95.000 VNĐ</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mix cay-thuy-sinh cay-trong-nha cay-de-ban">
-                        <div class="product__discount__item">
-                            <div class="product__discount__item__pic set-bg"
-                                data-setbg="img/sale/ngoc-ngan.jpg">
-                                <div class="product__discount__percent">-19%</div>
-                                <ul class="product__item__pic__hover">
-                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="product__discount__item__text">
-                                <span>Cây trong nhà</span>
-                                <h5><a href="#">Cây ngọc ngân</a></h5>
-                                <div class="product__item__price">125.000 VNĐ<span>155.000 VNĐ</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mix cay-ngoai-vuon">
-                        <div class="product__discount__item">
-                            <div class="product__discount__item__pic set-bg"
-                                data-setbg="img/sale/cay-mai-van-phuc.jpg">
-                                <div class="product__discount__percent">-11%</div>
-                                <ul class="product__item__pic__hover">
-                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="product__discount__item__text">
-                                <span>Cây trong nhà</span>
-                                <h5><a href="#">Cây mai vạn phúc</a></h5>
-                                <div class="product__item__price">88.000 VNĐ<span>99.000 VNĐ</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mix cay-tet cay-ngoai-vuon">
-                        <div class="product__discount__item">
-                            <div class="product__discount__item__pic set-bg"
-                                data-setbg="img/sale/cay-hoa-hai-duong.jpg">
-                                <div class="product__discount__percent">-15%</div>
-                                <ul class="product__item__pic__hover">
-                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="product__discount__item__text">
-                                <span>Cây trong nhà</span>
-                                <h5><a href="#">Cây hoa hải đường</a></h5>
-                                <div class="product__item__price">306.000 VNĐ<span>360.000 VNĐ</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mix cay-day-leo cay-tet cay-ngoai-vuon">
-                        <div class="product__discount__item">
-                            <div class="product__discount__item__pic set-bg"
-                                data-setbg="img/sale/cay-bach-lan-duong.jpg">
-                                <div class="product__discount__percent">-13%</div>
-                                <ul class="product__item__pic__hover">
-                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="product__discount__item__text">
-                                <span>Cây trong nhà</span>
-                                <h5><a href="#">Cây bạch lan dương</a></h5>
-                                <div class="product__item__price">261.000 VNĐ<span>299.000 VNĐ</span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </section>
         </div>
-    </section>
-    <!-- Featured Section End -->
-
-
- <!-- Footer Section Begin -->
- <footer class="footer spad">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="footer__about">
-                    <div class="footer__about__logo">
-                        <a href="./index.html"><img src="img/banner/bieutuong_off.png" alt=""></a>
-                    </div>
+        <div id="coupon-code" class="container tab-pane fade">
+          <section class="featured spad">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="section-title">
+                    <img src="img/sale/flash.gif" alt="flash sale" />
+                    <img src="img/sale/gia_soc.svg" alt="gia soc" />
+                  </div>
+                  <!-- Sửa featured_controls thành code_sale_controls -->
+                  <div class="code_sale_controls">
                     <ul>
-                        <li>Address: Đại học Nông Lâm TP.HCM</li>
-                        <li>Phone: +84353535355</li>
-                        <li>Email: thegioicaycanhNLU@gmail.com</li>
+                      <li class="active" id="addShow_imme" data-filter="*">
+                        Tất cả
+                      </li>
+                      <li data-filter=".code-percen">Mã giảm giá %</li>
+                      <li data-filter=".code-momo">Mã giảm giá momo</li>
+                      <li data-filter=".code-freeship">Miễn phí vận chuyển</li>
                     </ul>
+                  </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 ">
-                <div class="footer__widget no_flex">
-                    <h6>Địa chỉ bán lẻ</h6>
-                    <ul>
-                        <li>Address: KIOT 35, đường số 6, Đại học Nông Lâm</li>
-                        <li>Phone: +84353535355</li>
-                        <li>Email: thegioicaycanhNLU@gmail.com</li>
-                    </ul>
-                        
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12">
-                <div class="footer__widget no_flex">
-                    <h6>Để lại thông tin liên hệ</h6>
-                    <p>Tư vấn chăm sóc, mua bán cây</p>
-                    <form action="#">
-                        <input type="text" placeholder="Email">
-                        <button type="submit" class="site-btn">Gửi</button>
-                    </form>
-                    <div class="footer__widget__social">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-pinterest"></i></a>
+              </div>
+              <!-- Sửa featured__filter thành code_sale_filter -->
+              <div class="code_sale_filter">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 mix code-percen">
+                    <div
+                      class="card mb-3 bg-ligh mx-2"
+                      style="max-width: 540px"
+                    >
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img
+                            src="img/sale/giam_gia.png"
+                            class="card-img"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body row">
+                            <div class="col-md-8">
+                              <h5 class="card-title">Giảm 8%</h5>
+                              <p class="card-text">
+                                Giảm tối đa 50.000 VNĐ cho tất cả đơn hàng
+                              </p>
+                              <div
+                                class="progress"
+                                style="height: 20px; margin-bottom: 10px"
+                              >
+                                <div
+                                  class="progress-bar"
+                                  role="progressbar"
+                                  style="width: 25%"
+                                  aria-valuenow="25"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                                <p class="text-muted">Còn 10 mã</p>
+                              </div>
+                            </div>
+                            <div>
+                              <button type="button" class="btn btn-primary">
+                                Lấy mã
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 mix code-percen">
+                    <div
+                      class="card mb-3 bg-ligh mx-2"
+                      style="max-width: 540px"
+                    >
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img
+                            src="img/sale/giam_gia.png"
+                            class="card-img"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body row">
+                            <div class="col-md-8">
+                              <h5 class="card-title">Giảm 8%</h5>
+                              <p class="card-text">
+                                Giảm tối đa 50.000 VNĐ cho tất cả đơn hàng
+                              </p>
+                              <div
+                                class="progress"
+                                style="height: 20px; margin-bottom: 10px"
+                              >
+                                <div
+                                  class="progress-bar"
+                                  role="progressbar"
+                                  style="width: 25%"
+                                  aria-valuenow="25"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                                <p class="text-muted">Còn 10 mã</p>
+                              </div>
+                            </div>
+                            <div>
+                              <button type="button" class="btn btn-primary">
+                                Lấy mã
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 mix code-percen">
+                    <div
+                      class="card mb-3 bg-ligh mx-2"
+                      style="max-width: 540px"
+                    >
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img
+                            src="img/sale/giam_gia.png"
+                            class="card-img"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body row">
+                            <div class="col-md-8">
+                              <h5 class="card-title">Giảm 8%</h5>
+                              <p class="card-text">
+                                Giảm tối đa 50.000 VNĐ cho tất cả đơn hàng
+                              </p>
+                              <div
+                                class="progress"
+                                style="height: 20px; margin-bottom: 10px"
+                              >
+                                <div
+                                  class="progress-bar"
+                                  role="progressbar"
+                                  style="width: 25%"
+                                  aria-valuenow="25"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                                <p class="text-muted">Còn 10 mã</p>
+                              </div>
+                            </div>
+                            <div>
+                              <button type="button" class="btn btn-primary">
+                                Lấy mã
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 mix code-percen">
+                    <div
+                      class="card mb-3 bg-ligh mx-2"
+                      style="max-width: 540px"
+                    >
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img
+                            src="img/sale/giam_gia.png"
+                            class="card-img"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body row">
+                            <div class="col-md-8">
+                              <h5 class="card-title">Giảm 8%</h5>
+                              <p class="card-text">
+                                Giảm tối đa 50.000 VNĐ cho tất cả đơn hàng
+                              </p>
+                              <div
+                                class="progress"
+                                style="height: 20px; margin-bottom: 10px"
+                              >
+                                <div
+                                  class="progress-bar"
+                                  role="progressbar"
+                                  style="width: 25%"
+                                  aria-valuenow="25"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                                <p class="text-muted">Còn 10 mã</p>
+                              </div>
+                            </div>
+                            <div>
+                              <button type="button" class="btn btn-primary">
+                                Lấy mã
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -------------------Viet moi -->
+                  <div class="col-lg-6 col-md-6 col-sm-6 mix code-momo">
+                    <div
+                      class="card mb-3 bg-ligh mx-2"
+                      style="max-width: 540px"
+                    >
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img
+                            src="img/sale/giam_gia_momo.png"
+                            class="card-img"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body row">
+                            <div class="col-md-8">
+                              <h5 class="card-title">Giảm 8%</h5>
+                              <p class="card-text">
+                                Giảm tối đa 50.000 VNĐ cho tất cả đơn hàng
+                              </p>
+                              <div
+                                class="progress"
+                                style="height: 20px; margin-bottom: 10px"
+                              >
+                                <div
+                                  class="progress-bar"
+                                  role="progressbar"
+                                  style="width: 25%"
+                                  aria-valuenow="25"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                                <p class="text-muted">Còn 10 mã</p>
+                              </div>
+                            </div>
+                            <div>
+                              <button type="button" class="btn btn-primary">
+                                Lấy mã
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 mix code-momo">
+                    <div
+                      class="card mb-3 bg-ligh mx-2"
+                      style="max-width: 540px"
+                    >
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img
+                            src="img/sale/giam_gia_momo.png"
+                            class="card-img"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body row">
+                            <div class="col-md-8">
+                              <h5 class="card-title">Giảm 8%</h5>
+                              <p class="card-text">
+                                Giảm tối đa 50.000 VNĐ cho tất cả đơn hàng
+                              </p>
+                              <div
+                                class="progress"
+                                style="height: 20px; margin-bottom: 10px"
+                              >
+                                <div
+                                  class="progress-bar"
+                                  role="progressbar"
+                                  style="width: 25%"
+                                  aria-valuenow="25"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                                <p class="text-muted">Còn 10 mã</p>
+                              </div>
+                            </div>
+                            <div>
+                              <button type="button" class="btn btn-primary">
+                                Lấy mã
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 mix code-momo">
+                    <div
+                      class="card mb-3 bg-ligh mx-2"
+                      style="max-width: 540px"
+                    >
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img
+                            src="img/sale/giam_gia_momo.png"
+                            class="card-img"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body row">
+                            <div class="col-md-8">
+                              <h5 class="card-title">Giảm 8%</h5>
+                              <p class="card-text">
+                                Giảm tối đa 50.000 VNĐ cho tất cả đơn hàng
+                              </p>
+                              <div
+                                class="progress"
+                                style="height: 20px; margin-bottom: 10px"
+                              >
+                                <div
+                                  class="progress-bar"
+                                  role="progressbar"
+                                  style="width: 25%"
+                                  aria-valuenow="25"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                                <p class="text-muted">Còn 10 mã</p>
+                              </div>
+                            </div>
+                            <div>
+                              <button type="button" class="btn btn-primary">
+                                Lấy mã
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 mix code-momo">
+                    <div
+                      class="card mb-3 bg-ligh mx-2"
+                      style="max-width: 540px"
+                    >
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img
+                            src="img/sale/giam_gia_momo.png"
+                            class="card-img"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body row">
+                            <div class="col-md-8">
+                              <h5 class="card-title">Giảm 8%</h5>
+                              <p class="card-text">
+                                Giảm tối đa 50.000 VNĐ cho tất cả đơn hàng
+                              </p>
+                              <div
+                                class="progress"
+                                style="height: 20px; margin-bottom: 10px"
+                              >
+                                <div
+                                  class="progress-bar"
+                                  role="progressbar"
+                                  style="width: 25%"
+                                  aria-valuenow="25"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                                <p class="text-muted">Còn 10 mã</p>
+                              </div>
+                            </div>
+                            <div>
+                              <button type="button" class="btn btn-primary">
+                                Lấy mã
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 mix code-freeship">
+                    <div
+                      class="card mb-3 bg-ligh mx-2"
+                      style="max-width: 540px"
+                    >
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img
+                            src="img/sale/free_ship.png"
+                            class="card-img"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body row">
+                            <div class="col-md-8">
+                              <h5 class="card-title">Giảm 8%</h5>
+                              <p class="card-text">
+                                Giảm tối đa 50.000 VNĐ cho tất cả đơn hàng
+                              </p>
+                              <div
+                                class="progress"
+                                style="height: 20px; margin-bottom: 10px"
+                              >
+                                <div
+                                  class="progress-bar"
+                                  role="progressbar"
+                                  style="width: 25%"
+                                  aria-valuenow="25"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                                <p class="text-muted">Còn 10 mã</p>
+                              </div>
+                            </div>
+                            <div>
+                              <button type="button" class="btn btn-primary">
+                                Lấy mã
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 mix code-freeship">
+                    <div
+                      class="card mb-3 bg-ligh mx-2"
+                      style="max-width: 540px"
+                    >
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img
+                            src="img/sale/free_ship.png"
+                            class="card-img"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body row">
+                            <div class="col-md-8">
+                              <h5 class="card-title">Giảm 8%</h5>
+                              <p class="card-text">
+                                Giảm tối đa 50.000 VNĐ cho tất cả đơn hàng
+                              </p>
+                              <div
+                                class="progress"
+                                style="height: 20px; margin-bottom: 10px"
+                              >
+                                <div
+                                  class="progress-bar"
+                                  role="progressbar"
+                                  style="width: 25%"
+                                  aria-valuenow="25"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                                <p class="text-muted">Còn 10 mã</p>
+                              </div>
+                            </div>
+                            <div>
+                              <button type="button" class="btn btn-primary">
+                                Lấy mã
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 mix code-freeship">
+                    <div
+                      class="card mb-3 bg-ligh mx-2"
+                      style="max-width: 540px"
+                    >
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img
+                            src="img/sale/free_ship.png"
+                            class="card-img"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body row">
+                            <div class="col-md-8">
+                              <h5 class="card-title">Giảm 8%</h5>
+                              <p class="card-text">
+                                Giảm tối đa 50.000 VNĐ cho tất cả đơn hàng
+                              </p>
+                              <div
+                                class="progress"
+                                style="height: 20px; margin-bottom: 10px"
+                              >
+                                <div
+                                  class="progress-bar"
+                                  role="progressbar"
+                                  style="width: 25%"
+                                  aria-valuenow="25"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                                <p class="text-muted">Còn 10 mã</p>
+                              </div>
+                            </div>
+                            <div>
+                              <button type="button" class="btn btn-primary">
+                                Lấy mã
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 mix code-freeship">
+                    <div
+                      class="card mb-3 bg-ligh mx-2"
+                      style="max-width: 540px"
+                    >
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img
+                            src="img/sale/free_ship.png"
+                            class="card-img"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body row">
+                            <div class="col-md-8">
+                              <h5 class="card-title">Giảm 8%</h5>
+                              <p class="card-text">
+                                Giảm tối đa 50.000 VNĐ cho tất cả đơn hàng
+                              </p>
+                            </div>
+                            <div>
+                              <button type="button" class="btn btn-primary">
+                                Lấy mã
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </section>
         </div>
+        <br />
+      </div>
     </div>
-</footer>
+    <!-- End edit -->
 
-<!-- Footer Section End -->
+    <!-- Footer Section Begin -->
+    <footer class="footer spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="footer__about">
+              <div class="footer__about__logo">
+                <a href="./index.html"
+                  ><img src="img/banner/bieutuong_off.png" alt=""
+                /></a>
+              </div>
+              <ul>
+                <li>Address: Đại học Nông Lâm TP.HCM</li>
+                <li>Phone: +84353535355</li>
+                <li>Email: thegioicaycanhNLU@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="footer__widget no_flex">
+              <h6>Địa chỉ bán lẻ</h6>
+              <ul>
+                <li>Address: KIOT 35, đường số 6, Đại học Nông Lâm</li>
+                <li>Phone: +84353535355</li>
+                <li>Email: thegioicaycanhNLU@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="footer__widget no_flex">
+              <h6>Để lại thông tin liên hệ</h6>
+              <p>Tư vấn chăm sóc, mua bán cây</p>
+              <form action="#">
+                <input type="text" placeholder="Email" />
+                <button type="submit" class="site-btn">Gửi</button>
+              </form>
+              <div class="footer__widget__social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-   <!-- Js Plugins -->
-   <script src="js/jquery-3.3.1.min.js"></script>
-   <script src="js/bootstrap.min.js"></script>
-   <script src="js/jquery.nice-select.min.js"></script>
-   <script src="js/jquery-ui.min.js"></script>
-   <script src="js/jquery.slicknav.js"></script>
-   <script src="js/mixitup.min.js"></script>
-   <script src="js/owl.carousel.min.js"></script>
-   <script src="js/main.js"></script>
- 
-</body>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
