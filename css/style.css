@@ -1760,15 +1760,6 @@ ol {
 .position-relative {
   position: relative!important;
 }
-@media (max-width: 767px)
-.shop_wrapper .grid_list .single-product {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-top: 0px;
-}
 .shop_wrapper.grid_list .single-product {
   display: -webkit-box;
   display: -webkit-flex;
