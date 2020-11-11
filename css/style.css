@@ -1215,7 +1215,7 @@ ol {
 
 .price-range-wrap .range-slider .price-input:after {
   position: absolute;
-  left: 38px;
+  left: 38%;
   top: 13px;
   height: 1px;
   width: 5px;
@@ -1227,7 +1227,7 @@ ol {
   font-size: 16px;
   color: #dd2222;
   font-weight: 700;
-  max-width: 20%;
+  max-width: 40%;
   border: none;
   display: inline-block;
 }
@@ -1751,6 +1751,201 @@ ol {
 .product__pagination a:last-child,
 .blog__pagination a:last-child {
   margin-right: 0;
+}
+/* Thy sửa phần shop list */
+.col-custom {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.position-relative {
+  position: relative!important;
+}
+@media (max-width: 767px)
+.shop_wrapper .grid_list .single-product {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 0px;
+}
+.shop_wrapper.grid_list .single-product {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  /* background-color: #efedee; */
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  margin-top: 30px;
+  min-height: auto;
+  padding: 20px 0;
+}
+.shop_wrapper.grid_list .single-product .product-image {
+  margin: 20px;
+}
+.shop_wrapper.grid_list .single-product .product-image {
+  -webkit-flex-basis: 35%;
+  -ms-flex-preferred-size: 35%;
+  flex-basis: 35%;
+  max-width: 35%;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 20px 40px;
+}
+.d-block {
+  display: block!important;
+}
+
+.shop_wrapper.grid_list .product-content {
+  display: none;
+}
+.product-area .single-product .product-content .product-title {
+  margin-bottom: 10px;
+}
+.product-area .single-product .product-content {
+  /* background-color: #efedee; */
+  padding: 0 30px 20px;
+}
+.shop_wrapper.grid_list .product-content {
+  display: none;
+}.product-area .single-product .product-content .price-box .regular-price {
+  font-weight: 600;
+}
+.product-area .single-product .add-action {
+  position: absolute;
+  bottom: 14px;
+  left: 0;
+  padding: 0 30px;
+}
+.shop_wrapper.grid_list .add-action {
+  display: none !important;
+}
+.product-area .single-product .add-action a {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: translateX(-20px);
+  -ms-transform: translateX(-20px);
+  transform: translateX(-20px);
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  margin-right: 15px;
+}
+.shop_wrapper.grid_list .single-product .product-content-listview {
+  -webkit-flex-basis: 65%;
+  -ms-flex-preferred-size: 65%;
+  flex-basis: 65%;
+  max-width: 65%;
+  padding: 0 30px 0px;
+  position: relative;
+  margin-bottom: 0;
+}
+.shop_wrapper.grid_list .single-product .product-content-listview .product-rating {
+  margin-bottom: 15px;
+}
+.shop_wrapper.grid_list .single-product .product-content-listview .product-title .title-2 {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.shop_wrapper.grid_list .single-product .product-content-listview .price-box .regular-price {
+  color: #1B1B1C;
+  font-weight: 600;
+  margin-right: 5px;
+}
+.shop_wrapper.grid_list .single-product .product-content-listview .add-action-listview {
+  margin-top: 15px;
+}
+.shop_wrapper.grid_list .single-product .product-content-listview .add-action-listview a {
+  color: #000000;
+  margin-right: 15px;
+}
+.shop_wrapper.grid_list .single-product .product-content-listview .desc-content {
+  border-top: 1px solid #aed581;
+  margin-top: 10px;
+  padding-top: 10px;
+  display: block;
+}
+/* .product__item__pic__hover-1 {
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+  width: 100%;
+  text-align: center;
+  -webkit-transition: all, 0.5s;
+  -moz-transition: all, 0.5s;
+  -ms-transition: all, 0.5s;
+  -o-transition: all, 0.5s;
+  transition: all, 0.5s;
+} */
+
+.product__item__pic__hover-1 li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.product__item__pic__hover-1 li:last-child {
+  margin-right: 0;
+}
+
+.product__item__pic__hover-1 li:hover a {
+  background: #7fad39;
+  border-color: #7fad39;
+}
+
+.product__item__pic__hover-1 li:hover a i {
+  color: #ffffff;
+  transform: rotate(360deg);
+}
+
+.product__item__pic__hover-1 li a {
+  font-size: 16px;
+  color: #1c1c1c;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #ebebeb;
+  background: #ffffff;
+  display: block;
+  border-radius: 50%;
+  -webkit-transition: all, 0.5s;
+  -moz-transition: all, 0.5s;
+  -ms-transition: all, 0.5s;
+  -o-transition: all, 0.5s;
+  transition: all, 0.5s;
+}
+
+.product__item__pic__hover-1 li a i {
+  position: relative;
+  padding-top: 9px;
+  padding-left: 0px;
+  transform: rotate(0);
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -ms-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+.product-item-text h5 a{
+  color: #252525;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+.product-item-text h6{
+  color: #252525;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 /*---------------------
@@ -3070,6 +3265,10 @@ ol {
     width: 240px;
   }
 }
+/* Thy Sửa CSS phần image của slide show trang shop-grid và shop-list */
+.img-1{
+  width: 40%;
+}
 
 /* Tablet Device = 768px */
 
@@ -3709,6 +3908,16 @@ ol {
   padding-right: 10px;
   margin-top: 5px;
 }
+.order-heading .cancel-order{
+  margin-top: 4px;
+  padding: 4px;
+  background-color: #FF8A65;
+  margin-left: 10px;
+  float: right;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
 .order-heading .view-detail a{
   color: white;
 }
@@ -3721,6 +3930,7 @@ ol {
   color: rgb(36, 36, 36);
 }
 .status-block{
+  /* display: block; */
   border-radius: 4px;
   background-color:#7fad390f;
   padding: 20px 20px 80px;
@@ -3731,18 +3941,24 @@ ol {
   margin-top: 10px;
   display: block;
 }
-.status-block .progress-bar{
+.progress-bar-1 {
   margin: 40px 50px 20px;
   height: 10px;
   border-radius: 10px;
-  display: flex
+  display: flex;
 }
-.status-block .progress-bar .style-progress{
+.style-progress-1 {
   width: calc(16.6667%);
   background-color: rgb(89, 162, 56);
   position: relative;
 }
-.style-progress::before {
+
+.style-progress-1 {
+  width: calc(16.6667%);
+  background-color: rgb(89, 162, 56);
+  position: relative;
+}
+.style-progress-1::before {
   position: absolute;
   height: 16px;
   width: 16px;
@@ -3753,7 +3969,7 @@ ol {
   content: "";
   background-color: rgb(89, 162, 56);
 }
-.style-progress span{
+.style-progress-1 span {
   position: absolute;
   left: 0px;
   top: 31px;
@@ -3765,6 +3981,41 @@ ol {
   color: rgb(32, 32, 32);
   opacity: 0.5;
   line-height: 1.4;
+  overflow: hidden;
+}
+.style-progress-2:last-child {
+  width: 0px;
+}
+.style-progress-2 {
+  width: calc(16.6667%);
+  background-color: rgb(241, 241, 241);
+  position: relative;
+}
+.style-progress-2::before {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: -10px;
+  top: -5px;
+  line-height: 45px;
+  border-radius: 50%;
+  content: "";
+  background-color: rgb(255, 255, 255);
+  border: 4px solid rgb(89, 162, 56);
+}
+.style-progress-2 span {
+  position: absolute;
+  left: 0px;
+  top: 31px;
+  max-width: calc(100% - 30px);
+  min-width: 100px;
+  text-align: center;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: rgb(32, 32, 32);
+  opacity: 0.5;
+  line-height: 1.4;
+  overflow: hidden;
 }
 .order-detail{
   margin-top: 20px
@@ -3790,7 +4041,7 @@ ol {
   font-size: 13px;
   color: rgb(32, 32, 32);
   border-bottom: 1px solid rgb(218, 218, 218);
-  background-color:#7fad39;
+  background-color:#82ad4075;
   font-weight: bolder;
 }
 .order-detail .detail .border .style-normal-0{
@@ -4061,6 +4312,14 @@ ol {
   border: 1px solid #8ccd28;
   font-size: 12px;
   color: #8ccd28;
+  padding: 5px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.styles_section-3 tbody tr td .product-item .product-info .product-review button{
+  border: 1px solid #cd2828;
+  font-size: 12px;
+  color:#cd2828;
   padding: 5px 15px;
   border-radius: 4px;
   cursor: pointer;
@@ -4667,4 +4926,10 @@ i{
   border-style: solid;
   border-width: 5px 5px 0 5px;
   border-color: #777777 transparent transparent transparent;
+}
+#select,
+#text,#text1 {
+	padding: 7px;
+	margin: 15px 5px 5px;
+	width: 70px;
 }
