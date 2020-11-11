@@ -1869,9 +1869,9 @@ ol {
   margin-right: 15px;
 }
 .shop_wrapper.grid_list .single-product .product-content-listview .desc-content {
-  border-top: 1px solid #e1e1e1;
-  margin-top: 25px;
-  padding-top: 25px;
+  border-top: 1px solid #aed581;
+  margin-top: 10px;
+  padding-top: 10px;
   display: block;
 }
 /* .product__item__pic__hover-1 {
@@ -1936,7 +1936,17 @@ ol {
   -o-transition: all, 0.3s;
   transition: all, 0.3s;
 }
-
+.product-item-text h5 a{
+  color: #252525;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+.product-item-text h6{
+  color: #252525;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
 
 /*---------------------
   Shop Details
