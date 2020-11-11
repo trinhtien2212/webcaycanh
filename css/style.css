@@ -1750,6 +1750,7 @@ ol {
 .blog__pagination a:last-child {
   margin-right: 0;
 }
+
 /* Thy sửa phần shop list */
 .col-custom {
   padding-right: 15px;
@@ -3255,7 +3256,10 @@ ol {
     width: 240px;
   }
 }
-
+  /* Thy Sửa CSS phần image của slide show trang shop-grid và shop-list */
+  .img-1{
+    width: 40%;
+  }
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
