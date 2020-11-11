@@ -1953,6 +1953,12 @@ ol {
 
 .product__details__pic__item img {
   min-width: 100%;
+  transition: 0.6s;
+}
+.product__details__pic__item img:hover{
+  transform: scale(2,2);
+  transition: 0.6s;
+  overflow: hidden;
 }
 
 .product__details__pic__slider img {
@@ -2000,9 +2006,14 @@ ol {
 }
 
 .product__details__text .primary-btn {
-  padding: 16px 19px 14px;
+  padding: 16px 18px 14px;
   margin-right: 6px;
   margin-bottom: 5px;
+}
+.product__details__text .primary-btn i{
+  color: #1d7a00;
+  font-size: 15px;
+  margin-right: 3px;
 }
 
 .product__details__text .heart-icon {
@@ -4417,7 +4428,7 @@ ol {
 }
 /*///////////////////////////////// css cho comment reviews/////////////////////////////////////////////////// */
 .product-rating-overview {
-  background-color:  #7fad39;
+  background-color:  #7fad3938;
   min-height: 5rem;
   border: 1px solid #7fad39;
   margin-bottom: 1rem;
@@ -4437,10 +4448,15 @@ ol {
   padding: 1.875rem;
   width: 85%;
   margin: auto;
+  border-radius: 6px;
+  box-shadow: 10px 7px 12px -2px#7fad39;
 }
 .product-rating-overview__briefing {
   text-align: center;
   margin-right: 1.875rem;
+}
+.product-rating-overview__briefing .product-rating-overview__score-wrapper .starratingcontain i{
+  color:#edbb0e;
 }
  .product-rating-overview__filters {
   -webkit-box-flex: 1;
@@ -4498,6 +4514,33 @@ body {
   border: 0;
   width: 2.5rem;
   height: 2.5rem;
+}
+.comment-reviews .starrating i{
+  color: #edbb0e;
+  
+}
+.comment-reviews .containhuuich{
+  width: 200px;
+  height: 27px;
+  text-align: center;
+}
+.comment-reviews .containhuuich .huuich{
+    width: 110px;
+    height: 26px;
+    border: 1px solid #7fad39;
+    text-align: center;
+    float: left;
+    
+}
+.comment-reviews .containhuuich .huuich i{
+  color: #7fad39;
+  cursor: pointer;
+}
+.comment-reviews .starrating{
+  width: 82px;
+}
+.comment-reviews .starrating .sao{
+  width: 50px;
 }
 .shopee-avatar {
   display: inline-block;
@@ -4567,7 +4610,7 @@ body {
   height: 50px;
 }
 .comment-reviews{
-  height: 150px;
+  height: 196px;
   width: 1115px;
   background-color: #ffffff;
   margin: auto;
@@ -4575,6 +4618,7 @@ body {
   padding-top: 20px;
   border-bottom: 1px solid #c6c2c1;
   margin-bottom: 10px;
+  margin-top: 15px;
 } 
 .sao{
   color: orangered;
