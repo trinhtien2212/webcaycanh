@@ -1215,7 +1215,7 @@ ol {
 
 .price-range-wrap .range-slider .price-input:after {
   position: absolute;
-  left: 38px;
+  left: 38%;
   top: 13px;
   height: 1px;
   width: 5px;
@@ -1227,7 +1227,7 @@ ol {
   font-size: 16px;
   color: #dd2222;
   font-weight: 700;
-  max-width: 20%;
+  max-width: 40%;
   border: none;
   display: inline-block;
 }
@@ -3260,6 +3260,10 @@ ol {
     width: 240px;
   }
 }
+/* Thy Sửa CSS phần image của slide show trang shop-grid và shop-list */
+.img-1{
+  width: 40%;
+}
 
 /* Tablet Device = 768px */
 
@@ -3899,6 +3903,16 @@ ol {
   padding-right: 10px;
   margin-top: 5px;
 }
+.order-heading .cancel-order{
+  margin-top: 4px;
+  padding: 4px;
+  background-color: #FF8A65;
+  margin-left: 10px;
+  float: right;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
 .order-heading .view-detail a{
   color: white;
 }
@@ -4293,6 +4307,14 @@ ol {
   border: 1px solid #8ccd28;
   font-size: 12px;
   color: #8ccd28;
+  padding: 5px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.styles_section-3 tbody tr td .product-item .product-info .product-review button{
+  border: 1px solid #cd2828;
+  font-size: 12px;
+  color:#cd2828;
   padding: 5px 15px;
   border-radius: 4px;
   cursor: pointer;
