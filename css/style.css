@@ -172,7 +172,6 @@ ol {
   background: #7fad39;
   letter-spacing: 2px;
 }
-}
 
 .site-btn {
   font-size: 14px;
@@ -4576,7 +4575,7 @@ i{
 
 /* 	Header Module Filter
 --------------------------------------------------------------------------------*/
-.mod-filter{
+ .mod-filter{
   padding: 16px 0 13px;
   margin-bottom: 20px;
   background: #FFFFFF;
@@ -4651,7 +4650,7 @@ i{
 }
 .grid_frame{
   max-width: 1080px;
-  /*max-width: 67.5em;*/
+  max-width: 67.5em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -4876,4 +4875,4 @@ i{
 	padding: 7px;
 	margin: 15px 5px 5px;
 	width: 70px;
-}
+} 
