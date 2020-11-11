@@ -4622,3 +4622,9 @@ i{
   border-width: 5px 5px 0 5px;
   border-color: #777777 transparent transparent transparent;
 }
+#select,
+#text,#text1 {
+	padding: 7px;
+	margin: 15px 5px 5px;
+	width: 70px;
+}
