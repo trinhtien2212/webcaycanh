@@ -4440,8 +4440,8 @@ ol {
   border-radius: 5px;
   margin-left: 40px;
 }
-.fullname-cm .starrating-cm i{
-  color:#edbb0e ;
+i.fa.fa-star{
+  color: #edbb0e;
 }
 .message{
   width: 490px;
@@ -4572,7 +4572,7 @@ ol {
 }
 /*///////////////////////////////// css cho comment reviews/////////////////////////////////////////////////// */
 .product-rating-overview {
-  background-color:  #7fad39;
+  background-color:  #7fad3938;
   min-height: 5rem;
   border: 1px solid #7fad39;
   margin-bottom: 1rem;
@@ -4599,6 +4599,9 @@ ol {
   text-align: center;
   margin-right: 1.875rem;
 }
+.product-rating-overview__briefing .product-rating-overview__score-wrapper .starratingcontain i {
+  color: #edbb0e;
+}
  .product-rating-overview__filters {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -4607,6 +4610,7 @@ ol {
   flex: 1;
   margin-left: .9375rem;
 } 
+
  body, html {
   font-family: Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;
   color: rgba(0,0,0,.8);
@@ -4723,9 +4727,10 @@ body {
   width: 50px;
   height: 50px;
 }
-.comment-reviews{
-  height: 150px;
+.comment-reviews {
+  height: 220px;
   width: 1115px;
+  line-height: 25px;
   background-color: #ffffff;
   margin: auto;
   padding-left: 20px;
@@ -4734,6 +4739,13 @@ body {
   margin-bottom: 10px;
   margin-top: 15px;
 } 
+.comment-reviews .containhuuich .huuich {
+  width: 110px;
+  height: 26px;
+  border: 1px solid #7fad39;
+  text-align: center;
+  float: left;
+}
 .sao{
   color: orangered;
 }
