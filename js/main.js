@@ -9,6 +9,27 @@
 
 'use strict';
 
+
+// Material Select Initialization
+$(document).ready(function() {
+    // Write comment begin
+$('.btn-open').click(function(event) {
+    $('.hop-thoai').addClass('hien-ra');
+    $('.nen-mo').addClass('hien-ra');
+});
+$('.btn-close').click(function(event) {
+    $('.hop-thoai').removeClass('hien-ra');
+    $('.nen-mo').removeClass('hien-ra');
+});
+$('.nen-mo').click(function(event) {
+    $('.hop-thoai').removeClass('hien-ra');
+    $('.nen-mo').removeClass('hien-ra');
+});
+// Write comment end
+    $('.mdb-select').materialSelect();
+    });
+
+
 (function ($) {
 
     /*------------------
@@ -301,4 +322,57 @@
         console.log(paramAjax);
     });
 
+
 })(jQuery);
+$(document).ready(function () {
+    var select = document.getElementById('select');
+
+// Append the option elements
+// for (var i = -20; i <= 40; i++) {
+
+//     var option = document.createElement("option");
+//     option.text = i;
+//     option.value = i;
+
+//     select.appendChild(option);
+// }
+var html5Slider = document.getElementById('range');
+
+noUiSlider.create(html5Slider, {
+    start: [10, 30],
+    connect: true,
+    range: {
+        'min': -20,
+        'max': 40
+    }
+});
+// 
+var inputNumber = document.getElementById('text');
+var inputNumber1 = document.getElementById('text1');
+
+html5Slider.noUiSlider.on('update', function (values, handle) {
+
+    var value = values[handle];
+
+    if (handle) {
+        inputNumber.value = value;
+    } else {
+        inputNumber1.value = value;
+    }
+});
+
+// select.addEventListener('change', function () {
+//     html5Slider.noUiSlider.set([this.value, null]);
+// });
+
+inputNumber.addEventListener('change', function () {
+    html5Slider.noUiSlider.set([null, this.value]);
+});
+inputNumber1.addEventListener('change', function () {
+    html5Slider.noUiSlider.set([null, this.value]);
+});
+
+});
+=======
+})(jQuery);
+
