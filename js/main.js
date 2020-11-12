@@ -9,6 +9,7 @@
 
 'use strict';
 
+
 // Material Select Initialization
 $(document).ready(function() {
     // Write comment begin
@@ -27,6 +28,7 @@ $('.nen-mo').click(function(event) {
 // Write comment end
     $('.mdb-select').materialSelect();
     });
+
 
 (function ($) {
 
@@ -320,6 +322,7 @@ $('.nen-mo').click(function(event) {
         console.log(paramAjax);
     });
 
+
 })(jQuery);
 $(document).ready(function () {
     var select = document.getElementById('select');
@@ -370,3 +373,6 @@ inputNumber1.addEventListener('change', function () {
 });
 
 });
+=======
+})(jQuery);
+
