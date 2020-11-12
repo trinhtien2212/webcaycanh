@@ -2202,7 +2202,8 @@ ol {
 .shoping__cart__table table tbody tr td {
   padding-top: 30px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #ebebeb;
+  border-bottom: 1px solid #7fad39;
+  border-top: 1px solid #7fad39;
 }
 
 .shoping__cart__table table tbody tr td.shoping__cart__item {
