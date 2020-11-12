@@ -366,7 +366,5 @@ inputNumber1.addEventListener('change', function () {
     html5Slider.noUiSlider.set([null, this.value]);
 });
 
-});
-=======
 })(jQuery);
 
