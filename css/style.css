@@ -173,7 +173,6 @@ ol {
   letter-spacing: 2px;
 }
 
-
 .site-btn {
   font-size: 14px;
   color: #ffffff;
@@ -1215,7 +1214,7 @@ ol {
 
 .price-range-wrap .range-slider .price-input:after {
   position: absolute;
-  left: 38%;
+  left: 38px;
   top: 13px;
   height: 1px;
   width: 5px;
@@ -1227,7 +1226,7 @@ ol {
   font-size: 16px;
   color: #dd2222;
   font-weight: 700;
-  max-width: 40%;
+  max-width: 20%;
   border: none;
   display: inline-block;
 }
@@ -2006,14 +2005,9 @@ ol {
 }
 
 .product__details__text .primary-btn {
-  padding: 16px 18px 14px;
+  padding: 16px 19px 14px;
   margin-right: 6px;
   margin-bottom: 5px;
-}
-.product__details__text .primary-btn i{
-  color: #1d7a00;
-  font-size: 15px;
-  margin-right: 3px;
 }
 
 .product__details__text .heart-icon {
@@ -3262,10 +3256,6 @@ ol {
     width: 240px;
   }
 }
-/* Thy Sửa CSS phần image của slide show trang shop-grid và shop-list */
-.img-1{
-  width: 40%;
-}
 
 /* Tablet Device = 768px */
 
@@ -3905,16 +3895,6 @@ ol {
   padding-right: 10px;
   margin-top: 5px;
 }
-.order-heading .cancel-order{
-  margin-top: 4px;
-  padding: 4px;
-  background-color: #FF8A65;
-  margin-left: 10px;
-  float: right;
-  color: white;
-  border-radius: 5px;
-  font-weight: bold;
-}
 .order-heading .view-detail a{
   color: white;
 }
@@ -4313,14 +4293,6 @@ ol {
   border-radius: 4px;
   cursor: pointer;
 }
-.styles_section-3 tbody tr td .product-item .product-info .product-review button{
-  border: 1px solid #cd2828;
-  font-size: 12px;
-  color:#cd2828;
-  padding: 5px 15px;
-  border-radius: 4px;
-  cursor: pointer;
-}
 .styles_section-3 tbody tr td.price {
   white-space: nowrap;
 }
@@ -4428,7 +4400,7 @@ ol {
 }
 /*///////////////////////////////// css cho comment reviews/////////////////////////////////////////////////// */
 .product-rating-overview {
-  background-color:  #7fad3938;
+  background-color:  #7fad39;
   min-height: 5rem;
   border: 1px solid #7fad39;
   margin-bottom: 1rem;
@@ -4455,9 +4427,6 @@ ol {
   text-align: center;
   margin-right: 1.875rem;
 }
-.product-rating-overview__briefing .product-rating-overview__score-wrapper .starratingcontain i{
-  color:#edbb0e;
-}
  .product-rating-overview__filters {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -4465,7 +4434,7 @@ ol {
   -ms-flex: 1;
   flex: 1;
   margin-left: .9375rem;
-} */
+} 
  body, html {
   font-family: Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;
   color: rgba(0,0,0,.8);
@@ -4514,33 +4483,6 @@ body {
   border: 0;
   width: 2.5rem;
   height: 2.5rem;
-}
-.comment-reviews .starrating i{
-  color: #edbb0e;
-  
-}
-.comment-reviews .containhuuich{
-  width: 200px;
-  height: 27px;
-  text-align: center;
-}
-.comment-reviews .containhuuich .huuich{
-    width: 110px;
-    height: 26px;
-    border: 1px solid #7fad39;
-    text-align: center;
-    float: left;
-    
-}
-.comment-reviews .containhuuich .huuich i{
-  color: #7fad39;
-  cursor: pointer;
-}
-.comment-reviews .starrating{
-  width: 82px;
-}
-.comment-reviews .starrating .sao{
-  width: 50px;
 }
 .shopee-avatar {
   display: inline-block;
@@ -4610,7 +4552,7 @@ body {
   height: 50px;
 }
 .comment-reviews{
-  height: 196px;
+  height: 150px;
   width: 1115px;
   background-color: #ffffff;
   margin: auto;
@@ -4633,7 +4575,7 @@ i{
 
 /* 	Header Module Filter
 --------------------------------------------------------------------------------*/
-.mod-filter{
+/* .mod-filter{
   padding: 16px 0 13px;
   margin-bottom: 20px;
   background: #FFFFFF;
@@ -4708,7 +4650,7 @@ i{
 }
 .grid_frame{
   max-width: 1080px;
-  /*max-width: 67.5em;*/
+  max-width: 67.5em;
   margin-left: auto;
   margin-right: auto;
 }
