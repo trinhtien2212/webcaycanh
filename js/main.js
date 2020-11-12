@@ -41,13 +41,7 @@
             var mixer = mixitup(containerEl1);
         }
     });
-    // Viet them
-    $('#show_immediately').click(function (e) { 
-        console.log("co vo0-------------");
-        $('#addShow_imme').addClass('mixitup-control-active');
-        
-    });
-    // end viet them
+   
 
     /*------------------
         Background Set

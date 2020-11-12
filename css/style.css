@@ -1213,7 +1213,7 @@ ol {
 
 .price-range-wrap .range-slider .price-input:after {
   position: absolute;
-  left: 38px;
+  left: 38%;
   top: 13px;
   height: 1px;
   width: 5px;
@@ -1225,7 +1225,7 @@ ol {
   font-size: 16px;
   color: #dd2222;
   font-weight: 700;
-  max-width: 20%;
+  max-width: 40%;
   border: none;
   display: inline-block;
 }
@@ -3806,6 +3806,26 @@ ol {
   /* padding-bottom: 20px; */
   font-size: 20px;
 }
+.title-all{
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #7fad39;
+    text-transform: uppercase;
+}
+
+#add-img{
+  float: none;
+  font-size: 15px;
+  margin-top: 15px;
+  height: 40px;
+  border: 1px solid #7fad39;
+  width: 560px;
+  color: #7fad39;
+  box-shadow: 1px 1px 1px;
+}
+
 .sign__in__form .btn-dn{
   color: #7fad39;
 }
@@ -3815,7 +3835,7 @@ ol {
 .sign__in__form button:hover {
   border-bottom: 2px solid #7fad39;
 }
-.sign__in__form input{
+.sign__in__form input, .sign__in__form textarea{
   width: 560px;
   height: 40px;
   margin-top: 20px;
@@ -3824,6 +3844,10 @@ ol {
   /* color: #6f6f6f; */
   font-size: 14px;
   border-radius: 5px;
+}
+.sign__in__form textarea{
+  height: 100px;
+
 }
 .sign__in__form #submit{
   color: #ffffff;
@@ -3873,6 +3897,10 @@ ol {
 .sign__up{
   height: 650px;
   margin: auto;
+}
+.guarantee_wrap{
+  margin-bottom: 100px;
+  height: fit-content;
 }
 /* CSS cho trang Đơn hàng của bạn */
 /* Follow style */
@@ -4879,3 +4907,17 @@ i{
 	margin: 15px 5px 5px;
 	width: 70px;
 } */
+.active-green input.form-control[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid green;
+  box-shadow: 0 1px 0 0 green;
+}
+.active-green .fa {
+  color:green;
+}
+#selectest:focus{
+  border: 1px solid green;
+}
+
+.sticky-top {
+	background-color: white;
+}
