@@ -2203,7 +2203,8 @@ ol {
 .shoping__cart__table table tbody tr td {
   padding-top: 30px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #ebebeb;
+  border-bottom: 1px solid #7fad39;
+  border-top: 1px solid #7fad39;
 }
 
 .shoping__cart__table table tbody tr td.shoping__cart__item {
@@ -3197,7 +3198,7 @@ ol {
   color: #6f6f6f;
   padding-left: 20px;
   margin-bottom: 30px;
-  border: 1px solid #ebebeb;
+  border: 1px solid #7fad39;
   border-radius: 4px;
 }
 
@@ -3212,7 +3213,7 @@ ol {
   color: #6f6f6f;
   padding-left: 20px;
   margin-bottom: 24px;
-  border: 1px solid #ebebeb;
+  border: 1px solid #7fad39;
   border-radius: 4px;
   padding-top: 12px;
   resize: none;
@@ -4461,7 +4462,7 @@ i.fa.fa-star{
   
 }
 .submit-cm{
-  width: 150px;
+  width: 256px;
   height: 26px;
   margin-top: 19px;
   color:white;
@@ -4751,6 +4752,10 @@ body {
   border: 1px solid #7fad39;
   text-align: center;
   float: left;
+}
+.comment-reviews .containhuuich .huuich i{
+  color:#7fad39 ;
+  cursor: pointer;
 }
 .sao{
   color: orangered;
