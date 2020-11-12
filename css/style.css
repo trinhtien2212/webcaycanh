@@ -172,6 +172,7 @@ ol {
   background: #7fad39;
   letter-spacing: 2px;
 }
+
 .site-btn {
   font-size: 14px;
   color: #ffffff;
@@ -4906,6 +4907,7 @@ i{
 	padding: 7px;
 	margin: 15px 5px 5px;
 	width: 70px;
+<<<<<<< HEAD
 } */
 .active-green input.form-control[type=text]:focus:not([readonly]) {
   border-bottom: 1px solid green;
@@ -4921,3 +4923,6 @@ i{
 .sticky-top {
 	background-color: white;
 }
+=======
+}
+>>>>>>> 89b92baedfd2e8ea9af837d9aa85aabcb7ba2377
