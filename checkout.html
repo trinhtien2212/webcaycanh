@@ -389,10 +389,10 @@
                     </label>
                   </div>
                   <div class="checkout__input__checkbox">
-                    <label for="paypal">
+                    <label for="momo">
                       Ví điện tử momo
-                      <input type="checkbox" id="paypal" />
-                      <span class="checkmark"></span>
+                      <input type="checkbox" id="momo" data-toggle="modal" data-target="#momo-payment"/>
+                      <span class="checkmark" ></span>
                     </label>
                   </div>
                   <button type="submit" class="site-btn">Đặt hàng</button>
@@ -404,6 +404,48 @@
       </div>
     </section>
     <!-- Checkout Section End -->
+
+    <!-- Xử lí phần nhận sự kiện này -->
+     <!-- ............................................ -->
+    <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#momo-payment">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="momo-payment" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Quét QR</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+            <!-- <div class="row">
+              <div col-5>
+                  <img src="img/qr_code/qr_code1.png" alt="">
+              </div>
+              <div class="col-7">
+                  <p>Vui lòng mở momo và quét QR code trong vòng <span class="count-down-time">200</span>s</p>
+
+              </div>
+            </div> -->
+            <img src="img/qr_code/qr_code1.png" alt="">
+            <p>Vui lòng mở momo và quét QR code trong vòng <span class="count-down-time">200</span>s</p>
+        </div>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+  <!-- ......................................................................................-->
+    <!-- Kết thúc phần xử lí -->
 
     <!-- Footer Section Begin -->
     <footer class="footer spad">

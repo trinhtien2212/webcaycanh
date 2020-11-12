@@ -315,4 +315,9 @@ $('.nen-mo').click(function(event) {
         };
         console.log(paramAjax);
     });
+    // Scroll top
+    $("#scroll-top").click(function (e) { 
+        e.preventDefault();
+        $(window).scrollTop(0);
+    });
 })(jQuery);
