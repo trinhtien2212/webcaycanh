@@ -4536,7 +4536,7 @@ i.fa.fa-star{
   border-radius: 4px;
   font-weight: bolder;
 }
-/* CSS cho My Order */
+/*Thy viết CSS cho My Order */
 .myorder__style .heading {
   font-size: 19px;
   line-height: 21px;
@@ -4544,7 +4544,7 @@ i.fa.fa-star{
   margin: 20px 0px 15px;
 }
 .myorder__style .inner {
-  background-color:  #7fad390f;
+  /* background-color:  #; */
   border-radius: 4px;
   padding: 1px;
   min-height: 400px;
@@ -4565,8 +4565,15 @@ i.fa.fa-star{
   font-weight: 400;
   text-align: left;
 }
+.myorder__style th{
+  font-weight: bold;
+}
 .myorder__style td a{
   color: #689f38;
+}
+.myorder__style td a:hover{
+  color: #689f38;
+  font-size: larger;
 }
 .myorder__style th:last-child, .myorder__style td:last-child {
   text-align: right;
@@ -4808,4 +4815,46 @@ i{
   color: white;
   
 }
+/* Thy sửa phần CSS của trang USER */
 
+.nav-tabs .nav-link-2{
+  color: #1d7a00;
+}
+.user__border{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* Thông tin tài khoản */
+#profile header h1{
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #7cb342;
+  font-weight: 500;
+}
+#profile header .content{
+  margin-bottom: 20px;
+}
+#profile .nice-select {
+  width: 100%;
+}
+#profile .nice-select ul{
+  height: 400px;
+  overflow-y: scroll;
+}
+.btn-update{
+  border: 1px solid #7cb342;
+  background-color: #7cb342;
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.img-2 img{
+  width: 240px;
+  height: 240px;
+  border-radius: 145px;
+}
+.img-2 h6{
+  font-size: 20px;
+  color: #7cb342;;
+}
