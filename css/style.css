@@ -1406,6 +1406,7 @@ ol {
 .product__discount__item__pic .product__discount__percent-fvPr i{
   font-size: 38px;
   color:#ef0000b5;
+  cursor: pointer;
 }
 .product__item__pic__hover {
   position: absolute;
