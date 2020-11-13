@@ -4437,7 +4437,7 @@ ol {
 }
 
 .fullname-cm{
-  width: 490px;
+  width: 435px;
   height: 45px;
   margin: auto;
   margin-top: 11px;
@@ -4445,13 +4445,12 @@ ol {
   border:1px solid #7fad39;
   background-color: #ffffff;
   border-radius: 5px;
-  margin-left: 40px;
 }
 i.fa.fa-star{
   color: #edbb0e;
 }
 .message{
-  width: 490px;
+  width: 435px;
   height: 85px;
   margin-top: 10px;
   margin-bottom: 10px;
