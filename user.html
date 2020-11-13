@@ -404,39 +404,52 @@
                         <!--/row-->
                     </div>
                     <div class="tab-pane" id="messages">
-                        <div class="alert alert-info alert-dismissable">
-                            <a class="panel-close close" data-dismiss="alert">×</a> This is an <strong>.alert</strong>. Use this to show important messages to the user.
-                        </div>
-                        <table class="table table-hover table-striped">
-                            <tbody>                                    
-                                <tr>
-                                    <td>
-                                       <span class="float-right font-weight-bold">3 hrs ago</span> Here is your a link to the latest summary report from the..
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                       <span class="float-right font-weight-bold">Yesterday</span> There has been a request on your account since that was..
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                       <span class="float-right font-weight-bold">9/10</span> Porttitor vitae ultrices quis, dapibus id dolor. Morbi venenatis lacinia rhoncus. 
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                       <span class="float-right font-weight-bold">9/4</span> Vestibulum tincidunt ullamcorper eros eget luctus. 
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                       <span class="float-right font-weight-bold">9/4</span> Maxamillion ais the fix for tibulum tincidunt ullamcorper eros. 
-                                    </td>
-                                </tr>
-                            </tbody> 
-                        </table>
-                    </div>
+                      <!-- <h5 class="mb-3">Thông Tin Tài Khoản</h5> -->
+                      <div class="row">
+                          <div class="col-md-12">
+                          <header>
+                              <h1>THAY ĐỔI MẬT KHẨU</h1>
+                              <div class="content">Bạn nên cập nhật mật khẩu thường xuyên vì lí do bảo mật</div>
+                          </header>
+                          <form id="formAcount" class="formAcount validate clearfix">
+                              <div class="form-group clearfix">
+                                  <div class="row">
+                                      <label class="col-md-3 control-label"> Mật khẩu cũ: </label>
+                                      <div class="col-lg-6 col-md-9">
+                                          <input type="password" id="pass" name="pass" class="validate[required,minSize[4],maxSize[32]] form-control input-sm">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="form-group clearfix">
+                                  <div class="row">
+                                    <label class="col-md-3 control-label"> Mật khẩu mới: </label>
+                                    <div class="col-lg-6 col-md-9">
+                                        <input type="password" id="pass" name="pass" class="validate[required,minSize[4],maxSize[32]] form-control input-sm">
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="form-group clearfix">
+                                  <div class="row">
+                                    <label class="col-md-3 control-label"> Xác nhận mật khẩu: </label>
+                                    <div class="col-lg-6 col-md-9">
+                                        <input type="password" id="pass" name="pass" class="validate[required,minSize[4],maxSize[32]] form-control input-sm">
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="form-group clearfix">
+                                  <div class="row">
+                                  <label class="col-md-3 control-label"></label>
+                                  <div class="col-lg-6 col-md-9">
+                                      <button type="submit" class="btn-update">LƯU                                     
+                                      </button>
+                                  </div>
+                              </div>
+                              </div>
+                          </form>
+                          </div>
+                      </div>
+                      <!--/row-->
+                  </div>
                     <div class="tab-pane myorder__style" id="edit">
                       <!-- <div class="heading">Đơn hàng của tôi</div> -->
                       <div class="inner">
@@ -499,16 +512,19 @@
                           </div>
                       </div>
                       <!--/row-->
-                  </div>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-4 order-lg-1 text-center img-2">
+              <div class="img-ava">
                 <img src="img/blog/details/admin.jpg" class="mx-auto img-fluid img-circle d-block" alt="avatar">
-                <h6 class="mt-2">Nhật Thy</h6>
-                <label class="custom-file">
-                    <input type="file" id="file" class="custom-file-input">
-                    <span class="custom-file-control load-ava">Đổi Ảnh</span>
+                <label class="load-ava">
+                  <input type="file" id="file" class="custom-file-input">
+                  <span class="custom-file-control">Đổi Ảnh</span>
                 </label>
+              </div>
+              <h6 class="mt-2">Nhật Thy</h6>
+
             </div>
         </div>
     </div>
