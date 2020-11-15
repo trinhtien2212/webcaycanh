@@ -286,7 +286,7 @@
                                                         <a class="product-name" href="#">Cây Cẩm Nhung</a>
                                                         <p class="product-seller">Cung cấp bởi Thế Giới Cây Cảnh</p>
                                                         <div class="product-review">
-                                                            <a class="btn-open" href="#">Viết nhận xét</a>
+                                                            <a id="btn-comment"  href="#" data-toggle="modal" data-target="#exampleModalCenter">Viết nhận xét</a>
                                                             <a href="#" target="_blank">Mua lại</a>
                                                             <button disabled>Hủy Đơn Hàng</button>
                                                         </div>
@@ -329,37 +329,78 @@
     </section>
     <!-- Follow Section End -->
     <!-- Write comment section begin -->
-    <!-- <div class="cac-nut">
-        <button class="btn-open">Đánh giá sản phẩm</button>
-    </div>	 -->
-    <div class="nen-mo"></div>
-    <div class="hop-thoai row">
+    <!-- <div class="nen-mo"></div>
+    <div class="hop-thoai row"> -->
         <!-- <h3>Đánh giá sản phẩm</h3> -->
-        <div class="noi-dung"><button class="btn-close">X</button></div>
+        <!-- <div class="noi-dung"><button class="btn-close">X</button></div>
       <div class="container-cm col-lg-12">
         
         <h5>ĐÁNH GIÁ SẢN PHẨM</h5>
-        <form id="form-cm">  
+        <form id="form-cm">   -->
             <!-- <label for="sao">Đánh giá của bạn về sản phẩm này</label> -->
-            <select class="fullname-cm" name="sao" >
+            <!-- <select class="fullname-cm" name="sao" >
                         <option value="000">Đánh giá của bạn về sản phẩm này</option>
                         <option value="154">😍 Tôi cực kì hài lòng</option>
                         <option value="155">😀 Tôi rất hài lòng</option>
                         <option value="156">🙂 Tôi hài lòng</option>
                         <option value="157">😐 Tôi chưa hài lòng lắm</option>
                         <option value="158">😌 Tôi không thích sản phẩm này</option>
-            </select>
+            </select> -->
             <!-- <h6>Viết nhận xét của bạn vào bên dưới:</h6> -->
-            <input class="message" type="text" name="message" placeholder="Hãy chia sẻ những điều bạn thích về sản phẩm này nhé!" style="background-color: white"><br>
+            <!-- <input class="message" type="text" name="message" placeholder="Hãy chia sẻ những điều bạn thích về sản phẩm này nhé!" style="background-color: white"><br>
             <label for="">Thêm hình sản phẩm nếu có (tối đa 5 hình): </label> <button style="color: #ffffff;background-color: #7fad39;border-radius: 5px;" class="chonhinh">Chọn Hình</button> <br>
             <button class="submit-cm" name="submit-cm">Gửi Nhận Xét</button>
           
         </form>
         
-      </div>
+      </div> -->
     
         <!-- <div class="noi-dung"><button class="btn-close">Đóng</button></div> -->
+    <!-- </div> -->
+    <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+    Launch demo modal
+  </button> -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 style="color:#7fad39 ;" class="modal-title" id="exampleModalLongTitle">Đánh giá sản phẩm</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container-cm col-lg-12">
+        
+                <!-- <h5>ĐÁNH GIÁ SẢN PHẨM</h5> -->
+                <form id="form-cm">
+                    <!-- <label for="sao">Đánh giá của bạn về sản phẩm này</label> -->
+                    <select class="fullname-cm" name="sao" >
+                                <option value="000">Đánh giá của bạn về sản phẩm này</option>
+                                <option value="154">😍 Tôi cực kì hài lòng</option>
+                                <option value="155">😀 Tôi rất hài lòng</option>
+                                <option value="156">🙂 Tôi hài lòng</option>
+                                <option value="157">😐 Tôi chưa hài lòng lắm</option>
+                                <option value="158">😌 Tôi không thích sản phẩm này</option>
+                    </select><br><br>
+                    <!-- <h6>Viết nhận xét của bạn vào bên dưới:</h6> -->
+                    <input class="message" type="text" name="message" placeholder="Hãy chia sẻ những điều bạn thích về sản phẩm này nhé!" style="background-color: white"><br>
+                    <label for="">Thêm hình sản phẩm nếu có (tối đa 5 hình): </label> <button style="color: #ffffff;background-color: #7fad39;border-radius: 5px;" class="chonhinh">Chọn Hình</button> <br>
+                    <button class="submit-cm" name="submit-cm">Gửi Nhận Xét</button>
+                  
+                </form>
+                
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
     </div>
+  </div>
     <!-- Write comment section end -->
     <!-- Footer Section Begin -->
     <footer class="footer spad">
