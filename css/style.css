@@ -32,6 +32,9 @@
 *{
   font-family: Arial, Helvetica, sans-serif;
 }
+a{
+  text-decoration: none;
+}
 html,
 body {
   height: 100%;
@@ -774,11 +777,11 @@ ol {
 }
 .full-screen h2{
   color: green;
-  font-size: 1%;
+  font-size: 200%;
 }
 .full-screen p{
   font-size: 20px;
-  font-size: 1%;
+  font-size: 100%;
   color: #1d7a00;
   font-weight: bold;
 }
@@ -848,9 +851,15 @@ ol {
   background: #ffffff;
   display: block;
 }
-.sale h4 {
-  font-weight: 700;
+.sale a:hover{
+  color: #008000;
+  cursor: pointer;
+}
+.sale a{
   color: #1c1c1c;
+}
+.sale h4{
+  font-weight: 700;
   margin-bottom: 45px;
 }
 .categories__slider .col-lg-3 {

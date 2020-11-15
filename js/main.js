@@ -320,4 +320,67 @@ $('.nen-mo').click(function(event) {
         e.preventDefault();
         $(window).scrollTop(0);
     });
+
+    // Them======================
+    $('#order-place').prop("checked", false).trigger("change");
+    $('#order-place').change(function (e) { 
+        e.preventDefault();
+        console.log('co vo');
+        var conditionVal=$('#order-place').val();
+        if($('#order-place').is(':checked'))
+            $('#order-place-input-required').prop('required',true);
+            
+        else
+        $('#order-place-input-required').prop('required',false);
+       
+    });
+    
+    var timeout=null;
+    $('#cash').prop("checked", true).trigger("change");
+    $('#cash').change(function (e) { 
+        e.preventDefault();
+        if($('#cash').is(':checked')){
+            $('#momo').prop('checked',false);
+            $('#cash').prop('checked',true);
+            clearTimeout(timeout);
+        }
+            
+        else
+        {
+            $('#momo').prop('checked',true);
+            $('#cash').prop('checked',false);
+            countdown();
+        }
+       
+    });
+    $('#momo').prop("checked", false).trigger("change");
+    $('#momo').change(function (e) { 
+        e.preventDefault();
+        if($('#momo').is(':checked')){
+            console.log("Vo--------------");
+            
+            $('#momo').prop('checked',true);
+            $('#cash').prop('checked',false);
+            countdown();
+        }
+            
+        else
+        {
+            $('#momo').prop('checked',false);
+            $('#cash').prop('checked',true);
+            clearTimeout(timeout)
+        }
+       
+    });
+   
+    function countdown(){
+        var times =$('#count-down-time').text();
+        var time=parseInt(times);
+        time--;
+        console.log("time"+time)
+        $("#count-down-time").text(time);
+        timeour=setTimeout(countdown,1000);
+    }
+   
+
 })(jQuery);
