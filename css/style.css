@@ -4943,3 +4943,11 @@ i{
   background-color: #7FAD39;
   color: white;
 }
+.Terms-and-conditions .TAD-Container h5{
+  color: #7FAD39 ;
+}
+.Terms-and-conditions .TAD-Container{
+  width: 100%;
+  height: 70%;
+  padding: 2% 7%;
+}
