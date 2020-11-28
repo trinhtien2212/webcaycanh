@@ -128,7 +128,7 @@ ol {
   position: relative;
 }
 
-.section-title h2:after {
+.section-title a:after {
   position: absolute;
   left: 0;
   bottom: -15px;
@@ -770,6 +770,11 @@ ol {
   bottom: 0px;
   background-color: rgba(243, 243, 243, 0.651);
 }
+@media only screen and (max-width: 800px) {
+  .blur{
+    width: 100%;
+  }
+}
 .full-screen{
   width: 100%;
   text-align: center;
@@ -788,7 +793,7 @@ ol {
 /*---------------------
 	Banner top 
 ---------------------*/
-.banner_top{
+/* .banner_top{
 	background: url(../img/banner/bg1.png) no-repeat top;
 	background-size: auto;
 	height: 300px;
@@ -796,18 +801,26 @@ ol {
 	background-size: contain;
 	padding: 15px 0;
 	text-align: center;
-}
+} */
 .title{
   margin-top: 10px;
   margin-bottom: 60px;
+  text-align: center !important;
 }
-.title >p{
+.banner_top{
+  text-align: center;
+}
+.banner_top h2{
+  font-size: 46px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   display: block;
-  font-size: 50px;
+  font-weight: 700;
   color: green;
 }
 .banner_top .row{
-	justify-content: center;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 .banner_top .row p{
   display: inline-block;
@@ -850,6 +863,29 @@ ol {
   padding: 12px 0 10px;
   background: #ffffff;
   display: block;
+}
+.sale-intro{
+  margin-top: 30px;
+}
+.center{
+  text-align: center;
+}
+.tit-box {
+  text-transform: uppercase;
+  padding-top: 100px;
+  background: url(../img/banner/bg_tit.png) no-repeat top center;
+  margin-bottom: 50px;
+  text-align: center;
+  position: relative;
+}
+.tit-box a{
+  color: #5ba503;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+.tit-box a:hover{
+  color: #008000;
 }
 .sale a:hover{
   color: #008000;
@@ -943,7 +979,9 @@ ol {
 .featured__controls ul li:last-child ,.code_sale_controls ul li:last-child{
   margin-right: 0;
 }
-
+.max-width{
+  width: 100%;
+}
 .featured__item {
   margin-bottom: 50px;
 }
@@ -1391,6 +1429,7 @@ ol {
 .product__discount__item__pic .product__discount__percent {
   height: 45px;
   width: 45px;
+  color: white;
   background: #dd2222;
   border-radius: 50%;
   font-size: 14px;
@@ -3295,6 +3334,9 @@ ol {
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header__logo{
+    width: 90%;
+  }
   .hero__categories {
     margin-bottom: 30px;
   }
@@ -3518,6 +3560,9 @@ ol {
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+  .header__logo{
+    width: 90%;
+  }
   .hero__categories {
     margin-bottom: 30px;
   }
@@ -3776,6 +3821,9 @@ ol {
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+  .header__logo{
+    width: 80%;
+  }
   .hero__search__form form .hero__search__categories {
     display: none;
   }
