@@ -3913,6 +3913,7 @@ ol {
   /* padding-bottom: 20px; */
   font-size: 20px;
 }
+
 .title-all{
     text-align: center;
     width: 100%;
@@ -5051,6 +5052,7 @@ i{
 }
 .Terms-and-conditions .TAD-Container h5{
   color: #7FAD39 ;
+  margin-bottom: 30px;
 }
 .Terms-and-conditions .TAD-Container{
   width: 100%;
@@ -5094,7 +5096,7 @@ i{
 .success-box{
   margin-top: 8%;
   text-align: center;
-  justify-content: center; */
+  justify-content: center; 
 }
 .success-img{
   width: 300px;
