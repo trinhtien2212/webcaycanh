@@ -255,13 +255,13 @@
                   <div class="col-lg-6">
                     <div class="checkout__input">
                       <p>Họ và tên đệm<span>*</span></p>
-                      <input type="text" />
+                      <input type="text" required/>
                     </div>
                   </div>
                   <div class="col-lg-6">
                     <div class="checkout__input">
                       <p>Tên<span>*</span></p>
-                      <input type="text" />
+                      <input type="text" required/>
                     </div>
                   </div>
                 </div>
@@ -271,28 +271,29 @@
                     type="text"
                     placeholder="Số nhà / Đường"
                     class="checkout__input__add"
+                    required
                   />
-                  <input type="text" placeholder="Xã / Phường / Thị trấn" />
+                  <input type="text" placeholder required="Xã / Phường / Thị trấn" />
                 </div>
                 <div class="checkout__input">
                   <p>Tỉnh / Thành phố<span>*</span></p>
-                  <input type="text" />
+                  <input type="text" required/>
                 </div>
                 <div class="checkout__input">
                   <p>Huyện / Quận<span>*</span></p>
-                  <input type="text" />
+                  <input type="text" required/>
                 </div>
                 <div class="row">
                   <div class="col-lg-6">
                     <div class="checkout__input">
                       <p>Điện thoại<span>*</span></p>
-                      <input type="text" />
+                      <input type="number" required/>
                     </div>
                   </div>
                   <div class="col-lg-6">
                     <div class="checkout__input">
                       <p>Email<span>*</span></p>
-                      <input type="text" />
+                      <input type="email" required/>
                     </div>
                   </div>
                 </div>
@@ -308,6 +309,7 @@
                       data-target="#create_account"
                       aria-expanded="false"
                       aria-controls="create_account"
+                      required
                     />
                     <span class="checkmark"></span>
                   </label>
@@ -321,7 +323,7 @@
                   </p>
                   <div class="checkout__input">
                     <p>Mật khẩu tài khoản<span>*</span></p>
-                    <input type="text" />
+                    <input type="password" required/>
                   </div>
                 </div>
                 <!-- Ket thuc tao tai khoan -->
@@ -334,12 +336,12 @@
                     data-target="#other_place_ship"
                     aria-expanded="false"
                     aria-controls="collapseExample"/>
-                    <span class="checkmark"></span>
+                    <span class="checkmark" id="order-place"></span>
                   </label>
                 </div>
                 <div class="checkout__input collapse" id="other_place_ship">
                     <p>Địa chỉ<span>*</span></p>
-                    <input type="text" placeholder="Ghi đầy đủ địa chỉ"/>
+                    <input id="order-place-input-required" type="text" placeholder="Ghi đầy đủ địa chỉ" />
                 </div>
 
                 <!-- Ket thuc van chuyen den dia chi khac -->
@@ -382,9 +384,9 @@
                   </div> -->
                   <p>Vui lòng chọn hình thức thanh toán</p>
                   <div class="checkout__input__checkbox">
-                    <label for="payment">
+                    <label for="cash">
                       Tiền mặt
-                      <input type="checkbox" id="payment" />
+                      <input type="checkbox" id="cash"/>
                       <span class="checkmark"></span>
                     </label>
                   </div>
@@ -434,7 +436,7 @@
               </div>
             </div> -->
             <img src="img/qr_code/qr_code1.png" alt="">
-            <p>Vui lòng mở momo và quét QR code trong vòng <span class="count-down-time">200</span>s</p>
+            <p>Vui lòng mở momo và quét QR code trong vòng <span id="count-down-time">200</span>s</p>
         </div>
       </div>
       <!-- <div class="modal-footer">

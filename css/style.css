@@ -29,13 +29,28 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
+@font-face{
+  src: url(../fonts/Roboto-Light.ttf);
+  font-family: roboto-light;
+}
+@font-face{
+  src: url(../fonts/Roboto-Bold.ttf);
+  font-family: roboto-bold;
+}
+@font-face{
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-family: roboto-regular;
+}
 *{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: roboto-regular;
+}
+a{
+  text-decoration: none;
 }
 html,
 body {
   height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: roboto-regular;
   -webkit-font-smoothing: antialiased;
   font-smooth: antialiased;
   scroll-behavior: smooth;
@@ -50,7 +65,7 @@ h6 {
   margin: 0;
   color: #111111;
   font-weight: 400;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: roboto-regular;
 }
 
 h1 {
@@ -79,7 +94,7 @@ h6 {
 
 p {
   font-size: 16px;
-  font-family: "Cairo", sans-serif;
+  font-family: roboto-regular;
   color: #6f6f6f;
   font-weight: 400;
   line-height: 26px;
@@ -125,7 +140,7 @@ ol {
   position: relative;
 }
 
-.section-title h2:after {
+.section-title a:after {
   position: absolute;
   left: 0;
   bottom: -15px;
@@ -175,6 +190,7 @@ ol {
 }
 
 .site-btn {
+  font-family: roboto-bold;
   font-size: 14px;
   color: #ffffff;
   font-weight: 800;
@@ -659,7 +675,6 @@ ol {
   padding-top: 11px;
   position: relative;
 }
-
 .hero__search__form form .hero__search__categories:after {
   position: absolute;
   right: 0;
@@ -767,6 +782,11 @@ ol {
   bottom: 0px;
   background-color: rgba(243, 243, 243, 0.651);
 }
+@media only screen and (max-width: 800px) {
+  .blur{
+    width: 100%;
+  }
+}
 .full-screen{
   width: 100%;
   text-align: center;
@@ -774,18 +794,18 @@ ol {
 }
 .full-screen h2{
   color: green;
-  font-size: 1%;
+  font-size: 200%;
 }
 .full-screen p{
   font-size: 20px;
-  font-size: 1%;
+  font-size: 100%;
   color: #1d7a00;
   font-weight: bold;
 }
 /*---------------------
 	Banner top 
 ---------------------*/
-.banner_top{
+/* .banner_top{
 	background: url(../img/banner/bg1.png) no-repeat top;
 	background-size: auto;
 	height: 300px;
@@ -793,18 +813,26 @@ ol {
 	background-size: contain;
 	padding: 15px 0;
 	text-align: center;
-}
+} */
 .title{
   margin-top: 10px;
   margin-bottom: 60px;
+  text-align: center !important;
 }
-.title >p{
+.banner_top{
+  text-align: center;
+}
+.banner_top h2{
+  font-size: 46px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   display: block;
-  font-size: 50px;
+  font-weight: 700;
   color: green;
 }
 .banner_top .row{
-	justify-content: center;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 .banner_top .row p{
   display: inline-block;
@@ -848,9 +876,38 @@ ol {
   background: #ffffff;
   display: block;
 }
-.sale h4 {
-  font-weight: 700;
+.sale-intro{
+  margin-top: 30px;
+}
+.center{
+  text-align: center;
+}
+.tit-box {
+  text-transform: uppercase;
+  padding-top: 100px;
+  background: url(../img/banner/bg_tit.png) no-repeat top center;
+  margin-bottom: 50px;
+  text-align: center;
+  position: relative;
+}
+.tit-box a{
+  color: #5ba503;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+.tit-box a:hover{
+  color: #008000;
+}
+.sale a:hover{
+  color: #008000;
+  cursor: pointer;
+}
+.sale a{
   color: #1c1c1c;
+}
+.sale h4{
+  font-weight: 700;
   margin-bottom: 45px;
 }
 .categories__slider .col-lg-3 {
@@ -934,7 +991,9 @@ ol {
 .featured__controls ul li:last-child ,.code_sale_controls ul li:last-child{
   margin-right: 0;
 }
-
+.max-width{
+  width: 100%;
+}
 .featured__item {
   margin-bottom: 50px;
 }
@@ -1382,6 +1441,7 @@ ol {
 .product__discount__item__pic .product__discount__percent {
   height: 45px;
   width: 45px;
+  color: white;
   background: #dd2222;
   border-radius: 50%;
   font-size: 14px;
@@ -1842,7 +1902,7 @@ ol {
   -ms-transform: translateX(-20px);
   transform: translateX(-20px);
   font-size: 22px;
-  font-family: "Poppins", sans-serif;
+  font-family: roboto-bold;
   margin-right: 15px;
 }
 .shop_wrapper.grid_list .single-product .product-content-listview {
@@ -3007,7 +3067,7 @@ ol {
 .footer__widget p {
   font-size: 14px;
   color: #1c1c1c;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .no_flex p{
   font-size: 16px;
@@ -3015,7 +3075,7 @@ ol {
 }
 .footer__widget form {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .footer__widget form input {
@@ -3084,6 +3144,15 @@ ol {
 
 .footer__copyright__payment {
   float: right;
+}
+/* Tien them class term */
+.term{
+  color: black;
+  display: block;
+  margin-bottom: 20px;
+}
+.term:hover{
+  color: #7FAD39;
 }
 
 /*---------------------
@@ -3286,6 +3355,9 @@ ol {
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header__logo{
+    width: 90%;
+  }
   .hero__categories {
     margin-bottom: 30px;
   }
@@ -3509,6 +3581,9 @@ ol {
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+  .header__logo{
+    width: 90%;
+  }
   .hero__categories {
     margin-bottom: 30px;
   }
@@ -3767,6 +3842,9 @@ ol {
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+  .header__logo{
+    width: 80%;
+  }
   .hero__search__form form .hero__search__categories {
     display: none;
   }
@@ -4483,6 +4561,9 @@ i.fa.fa-star{
   border-radius: 5px;
   
 }
+#submit {
+  font-weight: bold;
+}
 .submit-cm{
   width: 256px;
   height: 26px;
@@ -4595,6 +4676,12 @@ i.fa.fa-star{
   font-weight: 400;
   text-align: left;
 }
+.my-coupon-code{
+  min-width: 70px;
+}
+.my-coupon-code img{
+  width: 80%;
+}
 .myorder__style th{
   font-weight: bold;
 }
@@ -4655,7 +4742,7 @@ i.fa.fa-star{
 } 
 
  body, html {
-  font-family: Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;
+  font-family: roboto-regular;
   color: rgba(0,0,0,.8);
   line-height: 1.2;
 }
@@ -4828,20 +4915,20 @@ i{
   margin-right: 30px;
 }
 .popup-footer .fa-comments{
-  color: #0279FF;
+  color: #0278ff86;
 }
 .circle-wrap {
-  width: 65px;
-  height: 65px;
-  border-radius: 45px;
-  background: rgb(110, 236, 110);
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  background: rgb(27 48 27 / 38%);
   display: inline-block;
-  box-shadow: 2px 2px 10px rgb(172, 163, 163);
+  box-shadow: 2px 2px 10px rgba(172, 163, 163, 0.637);
   border: none;
 }
 .circle-wrap i {
   font-size: 40px;
-  margin: 9px;
+  margin: 4px;
   color: white;
   
 }
@@ -4895,20 +4982,23 @@ i{
 }
 .img-2 .load-ava{
   display: none;
-  width: 100%;
-  height: 48px;
-  background-color: #615f5f;
-  color: #ffffffe0;
-  text-align: center;
-  font-size: 20px;
-  padding-top: 2px;
+  top: 40%;
+  height: 50px;
+  padding: 13px;
+  width: 110px;
+  left: 35%;
+  border-radius: 45px;
+  background-color: #ffffffba;
   position: absolute;
-  bottom: -50px;
 }
-.img-2:hover label{
-  bottom: 0px;
+.img-ava:hover label{
+
   transition: 0.6s;
   display: block;
+}
+.custom-file-control{
+  color: #000000ba;
+  font-size: 20px;
 }
 
 /* Thy Sửa CSS phần dialog quên mật khẩu */
