@@ -4027,6 +4027,20 @@ ol {
   float:right;
   display: block;
   background-color: #689f38;
+  padding: 6px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
+  margin-right: 4px;
+}
+.order-heading button{
+  float: right;;
+  /* display: block; */
+  background-color: #cd2828;
+  color: white;
   padding: 5px;
   border-radius: 5px;
   font-weight: bold;
@@ -4065,16 +4079,12 @@ ol {
   display: flex;
 }
 .style-progress-1 {
-  width: calc(16.6667%);
+  width: calc(20%);
   background-color: rgb(89, 162, 56);
   position: relative;
 }
 
-.style-progress-1 {
-  width: calc(16.6667%);
-  background-color: rgb(89, 162, 56);
-  position: relative;
-}
+
 .style-progress-1::before {
   position: absolute;
   height: 16px;
@@ -5044,4 +5054,43 @@ i{
 .error{
   color: #f00;
   font-size: 15px;
+}
+/* Thy sửa phần blog-details */
+.title-blog{
+  /* text-align: center; */
+  width: 100%;
+  font-size: 35px;
+  font-weight: bold;
+  color: #7fad39;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  line-height: normal;
+}
+/* Thy sửa trang check successful */
+.check-box{
+  width: 170px;
+  height: 170px;
+  margin: auto;
+  margin-top: 15%;
+  margin-bottom: 20px;
+  border-radius: 136px;
+  /* border: 2px solid #008000; */
+  text-align: center;
+  justify-content: center;
+}
+.check-img{
+  width: 150px;
+  height: 150px;
+  margin-top: 13px;
+  background-color: transparent;
+  text-align: center;
+}
+.success-box{
+  margin-top: 8%;
+  text-align: center;
+  justify-content: center; */
+}
+.success-img{
+  width: 300px;
+  height: 300px;
 }
