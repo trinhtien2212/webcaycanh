@@ -114,7 +114,7 @@
                   <a href="#"><i class="fa fa-pinterest-p"></i></a>
                 </div>
                 <div class="header__top__right__auth">
-                  <a href="#"><i class="fa fa-user"></i> Đăng Nhập</a>
+                  <a href="sign-in.html"><i class="fa fa-user"></i> Đăng Nhập</a>
                 </div>
               </div>
             </div>
@@ -278,7 +278,7 @@
                                 </div>
                                 <div class="form-group clearfix">
                                     <div class="row">
-                                        <label class="col-md-3 control-label">Ngày sinh: <span>(*)</span></label>
+                                        <label class="col-md-3 control-label">Ngày sinh: <span></span></label>
                                         <div class="col-lg-6 col-md-9">
                                             <input type="date" id="birthday" name="birthday" value="" placeholder="Ngày sinh" class="validate[required] form-control input-sm">
                                         </div>
@@ -286,7 +286,7 @@
                                 </div>
                                 <div class="form-group clearfix">
                                     <div class="row">
-                                        <label class="col-md-3 control-label">Điện thoại: <span>(*)</span></label>
+                                        <label class="col-md-3 control-label">Điện thoại: <span></span></label>
                                         <div class="col-lg-6 col-md-9">
                                             <input type="text" id="mobile" name="mobile" value="" placeholder="Điện thoại" class="validate[required,custom[phone]] form-control input-sm">
                                         </div>
@@ -305,7 +305,7 @@
                                         <label class="col-md-3 control-label">Tỉnh/Thành phố : <span>(*)</span></label>
                                         <div class="col-lg-6 col-md-9">
                                             <select name="cityID" id="cityID">
-                                                <option value="">Tỉnh/Thành phố (*)</option>
+                                                <option value="">Tỉnh/Thành phố</option>
                                                 <option value="254">An Giang</option>
                                                 <option value="255">Bà Rịa - Vũng Tàu</option>
                                                 <option value="256">Bắc Giang</option>
@@ -377,7 +377,7 @@
                                     <div class="row">
                                         <label class="col-md-3 control-label">Quận/ Huyện:  <span>(*)</span></label>
                                         <div class="col-lg-6 col-md-9">
-                                            <input type="text" id="district" name="district" value="littlestarproud24@yahoo.com.vn" placeholder="Quận/ Huyện" class="validate[required,custom[email]] form-control input-sm">
+                                            <input type="text" id="district" name="district" value="" placeholder="Quận/ Huyện" class="validate[required,custom[email]] form-control input-sm">
                                         </div>
                                     </div>
                                 </div>
@@ -393,7 +393,8 @@
                                     <div class="row">
                                     <label class="col-md-3 control-label"></label>
                                     <div class="col-lg-6 col-md-9">
-                                        <button type="submit" class="btn-update">CẬP NHẬT                                     
+                                        <input type="submit" class="btn-update" value="CẬP NHẬT">
+                                        <!-- <button type="submit" class="btn-update">CẬP NHẬT                                      -->
                                         </button>
                                     </div>
                                 </div>
@@ -645,5 +646,50 @@
   <script src="js/mixitup.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/main.js"></script>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.js"></script>
+  <script>
+    $(document).ready(function(){
+        $("#formAcount").validate({
+            rules: {
+                fullname: {
+                    required: true
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                cityID: {
+                  required: true
+                },
+                district: {
+                  required: true
+                },
+                address:  {
+                  required: true
+                }
+            },
+            messages: {
+              fullname: {
+                    required: "Xin vui lòng nhập tên"
+                },
+                email: {
+                    required: "Xin vui lòng nhập email",
+                    email: "Email không hợp lệ, xin vui lòng nhập lại"
+                },
+                cityID: {
+                  required: "Xin chọn tỉnh/thành phố"
+                },
+                district: {
+                  required: "Xin vui lòng nhập quận/huyện"
+                },
+                address:  {
+                  required: "Xin vui lòng nhập địa chỉ"
+                }
+            }
+        });
+    });
+</script>
 </body>
 </html>

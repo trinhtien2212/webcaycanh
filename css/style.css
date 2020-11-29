@@ -4951,3 +4951,7 @@ i{
   height: 70%;
   padding: 2% 7%;
 }
+.error{
+  color: #f00;
+  font-size: 15px;
+}
