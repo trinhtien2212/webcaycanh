@@ -11,24 +11,20 @@
 
 
 // Material Select Initialization
-$(document).ready(function() {
-    // Write comment begin
-$('.btn-open').click(function(event) {
-    $('.hop-thoai').addClass('hien-ra');
-    $('.nen-mo').addClass('hien-ra');
-});
-$('.btn-close').click(function(event) {
-    $('.hop-thoai').removeClass('hien-ra');
-    $('.nen-mo').removeClass('hien-ra');
-});
-$('.nen-mo').click(function(event) {
-    $('.hop-thoai').removeClass('hien-ra');
-    $('.nen-mo').removeClass('hien-ra');
-});
-// Write comment end
-    $('.mdb-select').materialSelect();
-    });
-
+// $(document).ready(function() {
+//     // Write comment begin
+// $('.btn-open').click(function(event) {
+//     $('.hop-thoai').addClass('hien-ra');
+//     $('.nen-mo').addClass('hien-ra');
+// });
+// $('.btn-close').click(function(event) {
+//     $('.hop-thoai').removeClass('hien-ra');
+//     $('.nen-mo').removeClass('hien-ra');
+// });
+// $('.nen-mo').click(function(event) {
+//     $('.hop-thoai').removeClass('hien-ra');
+//     $('.nen-mo').removeClass('hien-ra');
+// });
 
 (function ($) {
 
@@ -342,45 +338,47 @@ $('.nen-mo').click(function(event) {
         if($('#cash').is(':checked')){
             $('#momo').prop('checked',false);
             $('#cash').prop('checked',true);
-            clearTimeout(timeout);
+            $("#checkout-btn").removeAttr("data-toggle");
+            $("#checkout-btn").removeAttr("data-target");
+            $("#checkout-btn").removeClass("hasModal");
+        } 
+        if($("#momo-code").hasClass("show")){
+            $("#momo-code").removeClass("show");
         }
-            
-        else
-        {
-            $('#momo').prop('checked',true);
-            $('#cash').prop('checked',false);
-            countdown();
-        }
-       
     });
     $('#momo').prop("checked", false).trigger("change");
     $('#momo').change(function (e) { 
         e.preventDefault();
         if($('#momo').is(':checked')){
             console.log("Vo--------------");
-            
             $('#momo').prop('checked',true);
             $('#cash').prop('checked',false);
-            countdown();
-        }
-            
-        else
-        {
-            $('#momo').prop('checked',false);
-            $('#cash').prop('checked',true);
-            clearTimeout(timeout)
-        }
-       
+            $("#checkout-btn").attr("data-toggle", "modal");
+            $("#checkout-btn").attr("data-target","#momo-payment");
+            $("#checkout-btn").addClass("hasModal");
+        } 
     });
-   
+
+
     function countdown(){
         var times =$('#count-down-time').text();
         var time=parseInt(times);
         time--;
         console.log("time"+time)
         $("#count-down-time").text(time);
-        timeour=setTimeout(countdown,1000);
+        timeout=setTimeout(countdown,1000);
     }
+    $("#checkout-btn").click(function (e) { 
+        e.preventDefault();
+        if($(this).hasClass("hasModal")){
+            countdown();
+        }
+        
+    });
+    $("#momo-payment").on("hidden.bs.modal", function () {
+        clearTimeout(timeout);
+        console.log("Da close");
+    });
    
 
 })(jQuery);

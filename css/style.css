@@ -1216,13 +1216,19 @@ ol {
   background: grey;
   content: "";
 }
+.none-after a:after{
+  display: none;
+}
 /* Tiến edit phần color */
 .breadcrumb__option span {
   display: inline-block;
   font-size: 16px;
   color:grey;
 }
-
+.progress-style{
+  height: 20px; 
+  margin-bottom: 20px;
+}
 /*---------------------
   Sidebar
 -----------------------*/
