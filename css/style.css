@@ -1229,6 +1229,12 @@ ol {
   height: 20px; 
   margin-bottom: 20px;
 }
+.none-margin{
+  margin: 0;
+}
+.full-height{
+  height: 100%;
+}
 /*---------------------
   Sidebar
 -----------------------*/
